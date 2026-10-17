@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 900,
+    "height": 450,
+    "background": "#F4F0E8"
+  },
+  "copy": {
+    "ellipsis": "观察日常……重新看见生活。",
+    "temperature": "温度 20 ℃，湿度 50%。",
+    "prefix": "参考值 ± 3，价格 ￥ 128。"
+  },
+  "graphics": [],
+  "blocks": [
+    {
+      "copy_id": "ellipsis",
+      "font": "source-han-sans",
+      "x": 40,
+      "y": 50,
+      "width": 220,
+      "height": 350,
+      "size": 40,
+      "color": "#252820"
+    },
+    {
+      "copy_id": "temperature",
+      "font": "source-han-sans",
+      "x": 340,
+      "y": 50,
+      "width": 180,
+      "height": 350,
+      "size": 40,
+      "color": "#252820"
+    },
+    {
+      "copy_id": "prefix",
+      "font": "source-han-sans",
+      "x": 580,
+      "y": 50,
+      "width": 280,
+      "height": 350,
+      "size": 40,
+      "color": "#252820"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "blocks": [
+    {
+      "copy_id": "title",
+      "text": "山川有光",
+      "font": "source-han-serif",
+      "size": 140,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 101,
+          "right": 654,
+          "top": 219,
+          "bottom": 354,
+          "layout_left": 96,
+          "layout_right": 656
+        }
+      ]
+    },
+    {
+      "copy_id": "date",
+      "text": "2026.10.16",
+      "font": "source-han-sans",
+      "size": 42,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "2026.10.16",
+          "left": 97,
+          "right": 320.7599792480469,
+          "top": 1210,
+          "bottom": 1243,
+          "layout_left": 96,
+          "layout_right": 321.53997802734375
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "77025c00d69303fbd532c5e577f9f27d652ef1111bf583c143e63c0d4c853af5",
+  "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+}

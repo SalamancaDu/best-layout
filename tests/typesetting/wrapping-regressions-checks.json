@@ -1,0 +1,226 @@
+{
+  "blocks": [
+    {
+      "copy_id": "quantity",
+      "text": "共 10 万人参加。\n共 10 万件展品。",
+      "font": "source-han-sans",
+      "size": 40,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "共 ",
+          "left": 31,
+          "right": 69,
+          "top": 36,
+          "bottom": 74,
+          "layout_left": 30,
+          "layout_right": 79.07998657226562
+        },
+        {
+          "text": "10 万人",
+          "left": 33,
+          "right": 166.27996826171875,
+          "top": 92,
+          "bottom": 130,
+          "layout_left": 30,
+          "layout_right": 166.27996826171875
+        },
+        {
+          "text": "参加。",
+          "left": 30,
+          "right": 125,
+          "top": 147,
+          "bottom": 186,
+          "layout_left": 30,
+          "layout_right": 150
+        },
+        {
+          "text": "共 ",
+          "left": 31,
+          "right": 69,
+          "top": 204,
+          "bottom": 242,
+          "layout_left": 30,
+          "layout_right": 79.07998657226562
+        },
+        {
+          "text": "10 万件",
+          "left": 33,
+          "right": 166.27996826171875,
+          "top": 260,
+          "bottom": 298,
+          "layout_left": 30,
+          "layout_right": 166.27996826171875
+        },
+        {
+          "text": "展品。",
+          "left": 30,
+          "right": 125,
+          "top": 317,
+          "bottom": 354,
+          "layout_left": 30,
+          "layout_right": 150
+        }
+      ]
+    },
+    {
+      "copy_id": "contraction",
+      "text": "请说 Don't go.\n请说 Don’t go.",
+      "font": "source-han-sans",
+      "size": 40,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "请说 ",
+          "left": 260,
+          "right": 340,
+          "top": 35,
+          "bottom": 74,
+          "layout_left": 260,
+          "layout_right": 349.0799865722656
+        },
+        {
+          "text": "Don't go.",
+          "left": 263,
+          "right": 437.8799591064453,
+          "top": 90,
+          "bottom": 136,
+          "layout_left": 260,
+          "layout_right": 438.8799591064453
+        },
+        {
+          "text": "请说 ",
+          "left": 260,
+          "right": 340,
+          "top": 147,
+          "bottom": 186,
+          "layout_left": 260,
+          "layout_right": 349.0799865722656
+        },
+        {
+          "text": "Don’t ",
+          "left": 263,
+          "right": 396.239990234375,
+          "top": 204,
+          "bottom": 239,
+          "layout_left": 260,
+          "layout_right": 405.15997314453125
+        },
+        {
+          "text": "go.",
+          "left": 261,
+          "right": 319.67999267578125,
+          "top": 271,
+          "bottom": 304,
+          "layout_left": 260,
+          "layout_right": 320.67999267578125
+        }
+      ]
+    },
+    {
+      "copy_id": "nonbreaking",
+      "text": "请用 AI LAB 排版。",
+      "font": "source-han-sans",
+      "size": 40,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "请用 ",
+          "left": 520,
+          "right": 597,
+          "top": 35,
+          "bottom": 74,
+          "layout_left": 520,
+          "layout_right": 609.0799865722656
+        },
+        {
+          "text": "AI LAB ",
+          "left": 520,
+          "right": 645.47998046875,
+          "top": 96,
+          "bottom": 126,
+          "layout_left": 520,
+          "layout_right": 654.7999572753906
+        },
+        {
+          "text": "排版。",
+          "left": 520,
+          "right": 615,
+          "top": 148,
+          "bottom": 186,
+          "layout_left": 520,
+          "layout_right": 640
+        }
+      ]
+    },
+    {
+      "copy_id": "narrow_nonbreaking",
+      "text": "请用 AI LAB 排版。",
+      "font": "wdxl",
+      "size": 40,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "请用 ",
+          "left": 761,
+          "right": 819.5999908447266,
+          "top": 37,
+          "bottom": 75,
+          "layout_left": 760,
+          "layout_right": 828.3999786376953
+        },
+        {
+          "text": "AI LAB 排",
+          "left": 760,
+          "right": 894.8799438476562,
+          "top": 93,
+          "bottom": 131,
+          "layout_left": 760,
+          "layout_right": 896.4799346923828
+        },
+        {
+          "text": "版。",
+          "left": 761,
+          "right": 800.5999908447266,
+          "top": 149,
+          "bottom": 187,
+          "layout_left": 760,
+          "layout_right": 821.1999816894531
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 940,
+  "height": 460,
+  "sha256": "652a41ea25cc00c85256278b775ed2ce3551c30bad3ab739cb61d52590241721",
+  "visual_review": {
+    "status": "reviewed",
+    "reviewer": "current assistant",
+    "date": "2026-10-16",
+    "copy": "all four copy entries and protected groups checked against the exact input",
+    "extra_text": "none",
+    "viewing_sizes": [
+      940,
+      390
+    ],
+    "scope": "narrow-column regression fixture; not a finished design or semantic line-break approval",
+    "independent_human_review": false
+  }
+}

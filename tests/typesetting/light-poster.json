@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#F4EBDD"
+  },
+  "copy": {
+    "title": "光的形状",
+    "subtitle": "日常观察展",
+    "body": "在明暗之间，停留片刻。",
+    "date": "2026.11.06—11.22",
+    "place": "青禾空间"
+  },
+  "graphics": [
+    {
+      "type": "rect",
+      "x": 776,
+      "y": 110,
+      "width": 216,
+      "height": 770,
+      "color": "#B33F2A"
+    }
+  ],
+  "blocks": [
+    {
+      "copy_id": "title",
+      "font": "source-han-serif",
+      "x": 88,
+      "y": 110,
+      "width": 904,
+      "height": 770,
+      "size": 214,
+      "color": "#B33F2A",
+      "lines": [
+        "光的",
+        "形状"
+      ],
+      "line_height": 250,
+      "transform": {
+        "scale_x": 0.86,
+        "scale_y": 1.55
+      }
+    },
+    {
+      "copy_id": "subtitle",
+      "font": "source-han-sans",
+      "x": 88,
+      "y": 930,
+      "width": 904,
+      "height": 70,
+      "size": 48,
+      "color": "#29352B"
+    },
+    {
+      "copy_id": "body",
+      "font": "wenkai-gb",
+      "x": 88,
+      "y": 1045,
+      "width": 904,
+      "height": 70,
+      "size": 48,
+      "color": "#29352B"
+    },
+    {
+      "copy_id": "date",
+      "font": "source-han-sans",
+      "x": 88,
+      "y": 1210,
+      "width": 904,
+      "height": 70,
+      "size": 44,
+      "color": "#29352B"
+    },
+    {
+      "copy_id": "place",
+      "font": "source-han-sans",
+      "x": 88,
+      "y": 1310,
+      "width": 904,
+      "height": 70,
+      "size": 44,
+      "color": "#29352B"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1800,
+    "height": 1620,
+    "background": "#F8F6EF"
+  },
+  "copy": {
+    "label0": "思源黑体 · Bold",
+    "sample0": "山川有光",
+    "label1": "思源宋体 · Heavy",
+    "sample1": "山川有光",
+    "label2": "霞鹜文楷 GB · Regular",
+    "sample2": "山川有光",
+    "label3": "标小智无界黑",
+    "sample3": "山川有光",
+    "label4": "香萃等粗宋",
+    "sample4": "山川有光",
+    "label5": "齊伋體",
+    "sample5": "山川有光",
+    "label6": "得意黑",
+    "sample6": "山川有光",
+    "label7": "WD-XL 滑油字 · SC",
+    "sample7": "山川有光",
+    "label8": "霞鹜漫黑",
+    "sample8": "山川有光",
+    "label9": "缝合像素字体 · 12px",
+    "sample9": "山川有光"
+  },
+  "graphics": [],
+  "blocks": [
+    {
+      "copy_id": "label0",
+      "font": "source-han-sans",
+      "x": 70,
+      "y": 60,
+      "width": 780,
+      "height": 140,
+      "size": 28,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "sample0",
+      "font": "source-han-sans",
+      "x": 70,
+      "y": 150,
+      "width": 780,
+      "height": 140,
+      "size": 96,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "label1",
+      "font": "source-han-sans",
+      "x": 950,
+      "y": 60,
+      "width": 780,
+      "height": 140,
+      "size": 28,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "sample1",
+      "font": "source-han-serif",
+      "x": 950,
+      "y": 150,
+      "width": 780,
+      "height": 140,
+      "size": 96,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "label2",
+      "font": "source-han-sans",
+      "x": 70,
+      "y": 370,
+      "width": 780,
+      "height": 140,
+      "size": 28,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "sample2",
+      "font": "wenkai-gb",
+      "x": 70,
+      "y": 460,
+      "width": 780,
+      "height": 140,
+      "size": 96,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "label3",
+      "font": "source-han-sans",
+      "x": 950,
+      "y": 370,
+      "width": 780,
+      "height": 140,
+      "size": 28,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "sample3",
+      "font": "unbounded",
+      "x": 950,
+      "y": 460,
+      "width": 780,
+      "height": 140,
+      "size": 96,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "label4",
+      "font": "source-han-sans",
+      "x": 70,
+      "y": 680,
+      "width": 780,
+      "height": 140,
+      "size": 28,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "sample4",
+      "font": "xiangcui",
+      "x": 70,
+      "y": 770,
+      "width": 780,
+      "height": 140,
+      "size": 96,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "label5",
+      "font": "source-han-sans",
+      "x": 950,
+      "y": 680,
+      "width": 780,
+      "height": 140,
+      "size": 28,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "sample5",
+      "font": "qiji",
+      "x": 950,
+      "y": 770,
+      "width": 780,
+      "height": 140,
+      "size": 96,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "label6",
+      "font": "source-han-sans",
+      "x": 70,
+      "y": 990,
+      "width": 780,
+      "height": 140,
+      "size": 28,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "sample6",
+      "font": "smiley",
+      "x": 70,
+      "y": 1080,
+      "width": 780,
+      "height": 140,
+      "size": 96,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "label7",
+      "font": "source-han-sans",
+      "x": 950,
+      "y": 990,
+      "width": 780,
+      "height": 140,
+      "size": 28,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "sample7",
+      "font": "wdxl",
+      "x": 950,
+      "y": 1080,
+      "width": 780,
+      "height": 140,
+      "size": 96,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "label8",
+      "font": "source-han-sans",
+      "x": 70,
+      "y": 1300,
+      "width": 780,
+      "height": 140,
+      "size": 28,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "sample8",
+      "font": "marker",
+      "x": 70,
+      "y": 1390,
+      "width": 780,
+      "height": 140,
+      "size": 96,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "label9",
+      "font": "source-han-sans",
+      "x": 950,
+      "y": 1300,
+      "width": 780,
+      "height": 140,
+      "size": 28,
+      "color": "#26372E"
+    },
+    {
+      "copy_id": "sample9",
+      "font": "fusion-pixel",
+      "x": 950,
+      "y": 1390,
+      "width": 780,
+      "height": 140,
+      "size": 96,
+      "color": "#26372E"
+    }
+  ]
+}

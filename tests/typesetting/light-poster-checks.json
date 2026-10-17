@@ -1,0 +1,127 @@
+{
+  "blocks": [
+    {
+      "copy_id": "title",
+      "text": "光的形状",
+      "font": "source-han-serif",
+      "size": 214,
+      "transform": {
+        "scale_x": 0.86,
+        "scale_y": 1.55,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "光的",
+          "left": 91.44,
+          "right": 453.5,
+          "top": 156.5,
+          "bottom": 472.7
+        },
+        {
+          "text": "形状",
+          "left": 90.58,
+          "right": 454.36,
+          "top": 545.55,
+          "bottom": 861.75
+        }
+      ]
+    },
+    {
+      "copy_id": "subtitle",
+      "text": "日常观察展",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "日常观察展",
+          "left": 95,
+          "right": 327,
+          "top": 937,
+          "bottom": 983
+        }
+      ]
+    },
+    {
+      "copy_id": "body",
+      "text": "在明暗之间，停留片刻。",
+      "font": "wenkai-gb",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "在明暗之间，停留片刻。",
+          "left": 89,
+          "right": 586,
+          "top": 1053,
+          "bottom": 1099
+        }
+      ]
+    },
+    {
+      "copy_id": "date",
+      "text": "2026.11.06—11.22",
+      "font": "source-han-sans",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "2026.11.06—11.22",
+          "left": 89,
+          "right": 481.411865234375,
+          "top": 1220,
+          "bottom": 1255
+        }
+      ]
+    },
+    {
+      "copy_id": "place",
+      "text": "青禾空间",
+      "font": "source-han-sans",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "青禾空间",
+          "left": 90,
+          "right": 262,
+          "top": 1315,
+          "bottom": 1359
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "a1614580ede4e04012a4beae650fee99a12d1e45b9abca2ee218477bf987df32",
+  "visual_review": {
+    "status": "reviewed",
+    "reviewer": "current assistant",
+    "date": "2026-10-16",
+    "copy": "all 5 specified items checked",
+    "viewed": [
+      "1080x1440",
+      "390px browser display"
+    ],
+    "extra_text": "none",
+    "independent_human_review": false
+  }
+}

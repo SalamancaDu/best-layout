@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#EFE9DC"
+  },
+  "copy": {
+    "title": "在日常之间，重新看见器物",
+    "body": "从杯、盘与花器出发，观察使用留下的痕迹。",
+    "date": "2026.11.06—11.22",
+    "place": "青禾空间"
+  },
+  "graphics": [],
+  "blocks": [
+    {
+      "copy_id": "title",
+      "font": "xiangcui",
+      "x": 80,
+      "y": 200,
+      "width": 920,
+      "height": 500,
+      "size": 126,
+      "color": "#293A2F",
+      "lines": [
+        "在日常之间，",
+        "重新看见器物"
+      ],
+      "line_height": 176
+    },
+    {
+      "copy_id": "body",
+      "font": "wenkai-gb",
+      "x": 80,
+      "y": 850,
+      "width": 920,
+      "height": 150,
+      "size": 48,
+      "color": "#293A2F",
+      "line_height": 72,
+      "lines": [
+        "从杯、盘与花器出发，",
+        "观察使用留下的痕迹。"
+      ]
+    },
+    {
+      "copy_id": "date",
+      "font": "source-han-sans",
+      "x": 80,
+      "y": 1180,
+      "width": 920,
+      "height": 70,
+      "size": 46,
+      "color": "#293A2F"
+    },
+    {
+      "copy_id": "place",
+      "font": "source-han-sans",
+      "x": 80,
+      "y": 1280,
+      "width": 920,
+      "height": 70,
+      "size": 46,
+      "color": "#293A2F"
+    }
+  ]
+}

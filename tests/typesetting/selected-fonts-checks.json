@@ -1,0 +1,459 @@
+{
+  "blocks": [
+    {
+      "copy_id": "label0",
+      "text": "思源黑体 · Bold",
+      "font": "source-han-sans",
+      "size": 28,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "思源黑体 · Bold",
+          "left": 70,
+          "right": 285.1279602050781,
+          "top": 64,
+          "bottom": 91,
+          "layout_left": 70,
+          "layout_right": 286.1599578857422
+        }
+      ]
+    },
+    {
+      "copy_id": "sample0",
+      "text": "山川有光",
+      "font": "source-han-sans",
+      "size": 96,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 78,
+          "right": 452,
+          "top": 164,
+          "bottom": 256,
+          "layout_left": 70,
+          "layout_right": 454
+        }
+      ]
+    },
+    {
+      "copy_id": "label1",
+      "text": "思源宋体 · Heavy",
+      "font": "source-han-sans",
+      "size": 28,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "思源宋体 · Heavy",
+          "left": 950,
+          "right": 1189.459945678711,
+          "top": 64,
+          "bottom": 94,
+          "layout_left": 950,
+          "layout_right": 1189.459945678711
+        }
+      ]
+    },
+    {
+      "copy_id": "sample1",
+      "text": "山川有光",
+      "font": "source-han-serif",
+      "size": 96,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 953,
+          "right": 1333,
+          "top": 163,
+          "bottom": 256,
+          "layout_left": 950,
+          "layout_right": 1334
+        }
+      ]
+    },
+    {
+      "copy_id": "label2",
+      "text": "霞鹜文楷 GB · Regular",
+      "font": "source-han-sans",
+      "size": 28,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "霞鹜文楷 GB · Regular",
+          "left": 71,
+          "right": 375.82391357421875,
+          "top": 373,
+          "bottom": 405,
+          "layout_left": 70,
+          "layout_right": 375.82391357421875
+        }
+      ]
+    },
+    {
+      "copy_id": "sample2",
+      "text": "山川有光",
+      "font": "wenkai-gb",
+      "size": 96,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 82,
+          "right": 447,
+          "top": 476,
+          "bottom": 566,
+          "layout_left": 70,
+          "layout_right": 454
+        }
+      ]
+    },
+    {
+      "copy_id": "label3",
+      "text": "标小智无界黑",
+      "font": "source-han-sans",
+      "size": 28,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "标小智无界黑",
+          "left": 950,
+          "right": 1119,
+          "top": 374,
+          "bottom": 401,
+          "layout_left": 950,
+          "layout_right": 1119
+        }
+      ]
+    },
+    {
+      "copy_id": "sample3",
+      "text": "山川有光",
+      "font": "unbounded",
+      "size": 96,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 953,
+          "right": 1332,
+          "top": 482,
+          "bottom": 558,
+          "layout_left": 950,
+          "layout_right": 1334
+        }
+      ]
+    },
+    {
+      "copy_id": "label4",
+      "text": "香萃等粗宋",
+      "font": "source-han-sans",
+      "size": 28,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "香萃等粗宋",
+          "left": 70,
+          "right": 211,
+          "top": 684,
+          "bottom": 711,
+          "layout_left": 70,
+          "layout_right": 211
+        }
+      ]
+    },
+    {
+      "copy_id": "sample4",
+      "text": "山川有光",
+      "font": "xiangcui",
+      "size": 96,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 80,
+          "right": 451,
+          "top": 783,
+          "bottom": 876,
+          "layout_left": 70,
+          "layout_right": 454
+        }
+      ]
+    },
+    {
+      "copy_id": "label5",
+      "text": "齊伋體",
+      "font": "source-han-sans",
+      "size": 28,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "齊伋體",
+          "left": 950,
+          "right": 1035,
+          "top": 684,
+          "bottom": 711,
+          "layout_left": 950,
+          "layout_right": 1035
+        }
+      ]
+    },
+    {
+      "copy_id": "sample5",
+      "text": "山川有光",
+      "font": "qiji",
+      "size": 96,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 972,
+          "right": 1260.4000244140625,
+          "top": 800,
+          "bottom": 878,
+          "layout_left": 950,
+          "layout_right": 1260.4000244140625
+        }
+      ]
+    },
+    {
+      "copy_id": "label6",
+      "text": "得意黑",
+      "font": "source-han-sans",
+      "size": 28,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "得意黑",
+          "left": 70,
+          "right": 155,
+          "top": 994,
+          "bottom": 1021,
+          "layout_left": 70,
+          "layout_right": 155
+        }
+      ]
+    },
+    {
+      "copy_id": "sample6",
+      "text": "山川有光",
+      "font": "smiley",
+      "size": 96,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 77,
+          "right": 373.4000244140625,
+          "top": 1090,
+          "bottom": 1185,
+          "layout_left": 70,
+          "layout_right": 377.20001220703125
+        }
+      ]
+    },
+    {
+      "copy_id": "label7",
+      "text": "WD-XL 滑油字 · SC",
+      "font": "source-han-sans",
+      "size": 28,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "WD-XL 滑油字 · SC",
+          "left": 950,
+          "right": 1207.159912109375,
+          "top": 994,
+          "bottom": 1021,
+          "layout_left": 950,
+          "layout_right": 1207.159912109375
+        }
+      ]
+    },
+    {
+      "copy_id": "sample7",
+      "text": "山川有光",
+      "font": "wdxl",
+      "size": 96,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 954,
+          "right": 1239.3200073242188,
+          "top": 1097,
+          "bottom": 1186,
+          "layout_left": 950,
+          "layout_right": 1243.760009765625
+        }
+      ]
+    },
+    {
+      "copy_id": "label8",
+      "text": "霞鹜漫黑",
+      "font": "source-han-sans",
+      "size": 28,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "霞鹜漫黑",
+          "left": 71,
+          "right": 182,
+          "top": 1304,
+          "bottom": 1331,
+          "layout_left": 70,
+          "layout_right": 182
+        }
+      ]
+    },
+    {
+      "copy_id": "sample8",
+      "text": "山川有光",
+      "font": "marker",
+      "size": 96,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 80,
+          "right": 449,
+          "top": 1407,
+          "bottom": 1491,
+          "layout_left": 70,
+          "layout_right": 454
+        }
+      ]
+    },
+    {
+      "copy_id": "label9",
+      "text": "缝合像素字体 · 12px",
+      "font": "source-han-sans",
+      "size": 28,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "缝合像素字体 · 12px",
+          "left": 950,
+          "right": 1226.9999389648438,
+          "top": 1303,
+          "bottom": 1334,
+          "layout_left": 950,
+          "layout_right": 1226.9999389648438
+        }
+      ]
+    },
+    {
+      "copy_id": "sample9",
+      "text": "山川有光",
+      "font": "fusion-pixel",
+      "size": 96,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "山川有光",
+          "left": 950,
+          "right": 1328,
+          "top": 1406,
+          "bottom": 1494,
+          "layout_left": 950,
+          "layout_right": 1335
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1800,
+  "height": 1620,
+  "sha256": "c222b238530b67144acda5b82e7a5c9a2983c74163dfe08a0f0e732f0c17bcea",
+  "visual_review": {
+    "status": "reviewed",
+    "reviewer": "current assistant",
+    "date": "2026-10-16",
+    "copy": "all specified items visually checked against the layout copy list",
+    "extra_text": "none; labels permitted only on the internal font comparison sheet",
+    "viewing_sizes": [
+      1800
+    ],
+    "independent_human_review": false
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "blocks": [
+    {
+      "copy_id": "item00",
+      "text": "周末旧物修理站",
+      "font": "source-han-sans",
+      "size": 76,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "周末旧物修理站",
+          "left": 73,
+          "right": 603,
+          "top": 61,
+          "bottom": 133,
+          "layout_left": 72,
+          "layout_right": 604
+        }
+      ]
+    },
+    {
+      "copy_id": "item01",
+      "text": "REPAIR TOGETHER",
+      "font": "wdxl",
+      "size": 46,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "REPAIR TOGETHER",
+          "left": 76,
+          "right": 380.3719482421875,
+          "top": 170,
+          "bottom": 204,
+          "layout_left": 74,
+          "layout_right": 380.68194580078125
+        }
+      ]
+    },
+    {
+      "copy_id": "item02",
+      "text": "2026.12.12",
+      "font": "source-han-sans",
+      "size": 40,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "2026.12.12",
+          "left": 72,
+          "right": 285.19993591308594,
+          "top": 244,
+          "bottom": 275,
+          "layout_left": 72,
+          "layout_right": 286.7999267578125
+        }
+      ]
+    },
+    {
+      "copy_id": "item03",
+      "text": "10:00—17:00",
+      "font": "source-han-sans",
+      "size": 40,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "10:00—17:00",
+          "left": 423,
+          "right": 670.5199279785156,
+          "top": 244,
+          "bottom": 275,
+          "layout_left": 420,
+          "layout_right": 671.1199188232422
+        }
+      ]
+    },
+    {
+      "copy_id": "item04",
+      "text": "回声社区工坊",
+      "font": "source-han-sans",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "回声社区工坊",
+          "left": 74,
+          "right": 335,
+          "top": 308,
+          "bottom": 351,
+          "layout_left": 72,
+          "layout_right": 336
+        }
+      ]
+    },
+    {
+      "copy_id": "item05",
+      "text": "01 可带物品",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "01 可带物品",
+          "left": 73,
+          "right": 329.5359802246094,
+          "top": 417,
+          "bottom": 463,
+          "layout_left": 72,
+          "layout_right": 331.5359802246094
+        }
+      ]
+    },
+    {
+      "copy_id": "item06",
+      "text": "衣物、布袋、木质小件与自行车配件。每人限带 2 件；请提前清洁，并保留拆下的零件。",
+      "font": "wenkai-gb",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "衣物、布袋、木质小件与自行车配件。每人限带 ",
+          "left": 73,
+          "right": 993,
+          "top": 487,
+          "bottom": 529,
+          "layout_left": 72,
+          "layout_right": 1011.4000244140625
+        },
+        {
+          "text": "2 件；请提前清洁，并保留拆下的零件。",
+          "left": 74,
+          "right": 833.7999877929688,
+          "top": 541,
+          "bottom": 583,
+          "layout_left": 72,
+          "layout_right": 861.7999877929688
+        }
+      ]
+    },
+    {
+      "copy_id": "item07",
+      "text": "02 不接收范围",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "02 不接收范围",
+          "left": 73,
+          "right": 377.5359802246094,
+          "top": 667,
+          "bottom": 713,
+          "layout_left": 72,
+          "layout_right": 379.5359802246094
+        }
+      ]
+    },
+    {
+      "copy_id": "item08",
+      "text": "电池、电源适配器、燃气设备和带液体的器具不在本次活动范围内，请勿带到现场。",
+      "font": "wenkai-gb",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "电池、电源适配器、燃气设备和带液体的器具不在",
+          "left": 77,
+          "right": 1039,
+          "top": 738,
+          "bottom": 779,
+          "layout_left": 72,
+          "layout_right": 1040
+        },
+        {
+          "text": "本次活动范围内，请勿带到现场。",
+          "left": 73,
+          "right": 704,
+          "top": 791,
+          "bottom": 833,
+          "layout_left": 72,
+          "layout_right": 732
+        }
+      ]
+    },
+    {
+      "copy_id": "item09",
+      "text": "03 时间安排",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "03 时间安排",
+          "left": 73,
+          "right": 330.5359802246094,
+          "top": 917,
+          "bottom": 963,
+          "layout_left": 72,
+          "layout_right": 331.5359802246094
+        }
+      ]
+    },
+    {
+      "copy_id": "item10",
+      "text": "10:00—12:00 现场登记",
+      "font": "wenkai-gb",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "10:00—12:00 现场登记",
+          "left": 77,
+          "right": 548.3999328613281,
+          "top": 989,
+          "bottom": 1028,
+          "layout_left": 72,
+          "layout_right": 549.3999328613281
+        }
+      ]
+    },
+    {
+      "copy_id": "item11",
+      "text": "13:00—16:00 共同修理",
+      "font": "wenkai-gb",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "13:00—16:00 共同修理",
+          "left": 77,
+          "right": 549.3999328613281,
+          "top": 1044,
+          "bottom": 1084,
+          "layout_left": 72,
+          "layout_right": 549.3999328613281
+        }
+      ]
+    },
+    {
+      "copy_id": "item12",
+      "text": "16:00—17:00 整理与交流",
+      "font": "wenkai-gb",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "16:00—17:00 整理与交流",
+          "left": 77,
+          "right": 592.39990234375,
+          "top": 1100,
+          "bottom": 1141,
+          "layout_left": 72,
+          "layout_right": 593.39990234375
+        }
+      ]
+    },
+    {
+      "copy_id": "item13",
+      "text": "04 参与方式",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "04 参与方式",
+          "left": 73,
+          "right": 331.5359802246094,
+          "top": 1176,
+          "bottom": 1223,
+          "layout_left": 72,
+          "layout_right": 331.5359802246094
+        }
+      ]
+    },
+    {
+      "copy_id": "item14",
+      "text": "无需预约，按到场顺序登记。未成年人须由成年人陪同；每件物品先检查，再决定是否适合现场处理。",
+      "font": "wenkai-gb",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "无需预约，按到场顺序登记。未成年人",
+          "left": 72,
+          "right": 819,
+          "top": 1247,
+          "bottom": 1289,
+          "layout_left": 72,
+          "layout_right": 820
+        },
+        {
+          "text": "须由成年人陪同；每件物品先检查，",
+          "left": 73,
+          "right": 743,
+          "top": 1301,
+          "bottom": 1343,
+          "layout_left": 72,
+          "layout_right": 776
+        },
+        {
+          "text": "再决定是否适合现场处理。",
+          "left": 73,
+          "right": 572,
+          "top": 1355,
+          "bottom": 1397,
+          "layout_left": 72,
+          "layout_right": 600
+        }
+      ]
+    },
+    {
+      "copy_id": "item15",
+      "text": "05 需要准备",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "05 需要准备",
+          "left": 73,
+          "right": 331.5359802246094,
+          "top": 1427,
+          "bottom": 1473,
+          "layout_left": 72,
+          "layout_right": 331.5359802246094
+        }
+      ]
+    },
+    {
+      "copy_id": "item16",
+      "text": "请携带物品、相关配件和一个收纳袋。现场提供常用手工具；特殊耗材请自备。",
+      "font": "wenkai-gb",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "请携带物品、相关配件和一个收纳袋。现场提供常",
+          "left": 73,
+          "right": 1038,
+          "top": 1497,
+          "bottom": 1540,
+          "layout_left": 72,
+          "layout_right": 1040
+        },
+        {
+          "text": "用手工具；特殊耗材请自备。",
+          "left": 74,
+          "right": 616,
+          "top": 1551,
+          "bottom": 1593,
+          "layout_left": 72,
+          "layout_right": 644
+        }
+      ]
+    },
+    {
+      "copy_id": "item17",
+      "text": "06 费用与后续",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "06 费用与后续",
+          "left": 73,
+          "right": 378.5359802246094,
+          "top": 1677,
+          "bottom": 1723,
+          "layout_left": 72,
+          "layout_right": 379.5359802246094
+        }
+      ]
+    },
+    {
+      "copy_id": "item18",
+      "text": "参与免费，替换材料按实际用量登记。无法当天处理的物品须自行带回，现场不提供寄存。",
+      "font": "wenkai-gb",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "参与免费，替换材料按实际用量登记。无法当天处",
+          "left": 74,
+          "right": 1040,
+          "top": 1747,
+          "bottom": 1789,
+          "layout_left": 72,
+          "layout_right": 1040
+        },
+        {
+          "text": "理的物品须自行带回，现场不提供寄存。",
+          "left": 73,
+          "right": 836,
+          "top": 1801,
+          "bottom": 1843,
+          "layout_left": 72,
+          "layout_right": 864
+        }
+      ]
+    },
+    {
+      "copy_id": "item19",
+      "text": "咨询：hello@example.com",
+      "font": "wenkai-gb",
+      "size": 42,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "咨询：hello@example.com",
+          "left": 75,
+          "right": 575.7938842773438,
+          "top": 1962,
+          "bottom": 2005,
+          "layout_left": 72,
+          "layout_right": 579.0658874511719
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1152,
+  "height": 2048,
+  "sha256": "dc873e4f67eb6ceacc6f2da9f5a20944c28972ffad982407289b28ea18652ab5",
+  "visual_review": {
+    "status": "reviewed",
+    "reviewer": "current assistant",
+    "date": "2026-10-16",
+    "copy": "all specified items visually checked against the layout copy list",
+    "extra_text": "none; labels permitted only on the internal font comparison sheet",
+    "viewing_sizes": [
+      1152,
+      390,
+      360
+    ],
+    "independent_human_review": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "canvas": {"width": 1080, "height": 1440, "background": "#F4F0E8"},
+  "copy": {"title": "山川有光", "date": "2026.10.16"},
+  "graphics": [],
+  "blocks": [
+    {"copy_id": "title", "font": "source-han-serif", "x": 96, "y": 200,
+     "width": 888, "height": 170, "size": 140, "color": "#252820"},
+    {"copy_id": "date", "font": "source-han-sans", "x": 96, "y": 1200,
+     "width": 888, "height": 60, "size": 42, "color": "#252820"}
+  ]
+}

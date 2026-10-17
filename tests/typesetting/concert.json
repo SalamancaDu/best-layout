@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#F26938"
+  },
+  "copy": {
+    "title": "夜行音乐会",
+    "tagline": "让节拍穿过街道",
+    "date": "2026.12.05",
+    "time": "19:30—21:00",
+    "place": "回声剧场",
+    "admission": "凭票入场"
+  },
+  "graphics": [
+    {
+      "type": "rect",
+      "x": 0,
+      "y": 960,
+      "width": 1080,
+      "height": 480,
+      "color": "#252620"
+    },
+    {
+      "type": "rect",
+      "x": 88,
+      "y": 720,
+      "width": 904,
+      "height": 4,
+      "color": "#252620"
+    }
+  ],
+  "blocks": [
+    {
+      "copy_id": "title",
+      "font": "smiley",
+      "x": 80,
+      "y": 132,
+      "width": 920,
+      "height": 552,
+      "size": 218,
+      "color": "#252620",
+      "lines": [
+        "夜行",
+        "音乐会"
+      ],
+      "line_height": 260
+    },
+    {
+      "copy_id": "tagline",
+      "font": "source-han-sans",
+      "x": 88,
+      "y": 772,
+      "width": 904,
+      "height": 74,
+      "size": 48,
+      "color": "#252620"
+    },
+    {
+      "copy_id": "date",
+      "font": "wdxl",
+      "x": 88,
+      "y": 1040,
+      "width": 904,
+      "height": 116,
+      "size": 100,
+      "color": "#F5EEDF"
+    },
+    {
+      "copy_id": "time",
+      "font": "source-han-sans",
+      "x": 88,
+      "y": 1180,
+      "width": 580,
+      "height": 62,
+      "size": 44,
+      "color": "#F5EEDF"
+    },
+    {
+      "copy_id": "place",
+      "font": "source-han-sans",
+      "x": 88,
+      "y": 1295,
+      "width": 500,
+      "height": 64,
+      "size": 46,
+      "color": "#F5EEDF"
+    },
+    {
+      "copy_id": "admission",
+      "font": "source-han-sans",
+      "x": 730,
+      "y": 1295,
+      "width": 262,
+      "height": 64,
+      "size": 46,
+      "color": "#F5EEDF",
+      "align": "right"
+    }
+  ]
+}

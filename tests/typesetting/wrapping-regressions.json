@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "canvas": {"width": 940, "height": 460, "background": "#FFFFFF"},
+  "copy": {
+    "quantity": "共 10 万人参加。\n共 10 万件展品。",
+    "contraction": "请说 Don't go.\n请说 Don’t go.",
+    "nonbreaking": "请用 AI\u00a0LAB 排版。",
+    "narrow_nonbreaking": "请用 AI\u202fLAB 排版。"
+  },
+  "graphics": [],
+  "blocks": [
+    {"copy_id": "quantity", "font": "source-han-sans", "x": 30, "y": 30,
+     "width": 150, "height": 400, "size": 40, "color": "#222222"},
+    {"copy_id": "contraction", "font": "source-han-sans", "x": 260, "y": 30,
+     "width": 180, "height": 400, "size": 40, "color": "#222222"},
+    {"copy_id": "nonbreaking", "font": "source-han-sans", "x": 520, "y": 30,
+     "width": 160, "height": 400, "size": 40, "color": "#222222"},
+    {"copy_id": "narrow_nonbreaking", "font": "wdxl", "x": 760, "y": 30,
+     "width": 140, "height": 400, "size": 40, "color": "#222222"}
+  ]
+}

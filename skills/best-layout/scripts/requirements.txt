@@ -1,0 +1,2 @@
+# Existing project rendering stack; browser setup is explicit.
+playwright>=1.57,<2

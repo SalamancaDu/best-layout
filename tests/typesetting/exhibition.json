@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#982565"
+  },
+  "copy": {
+    "title": "看见声音",
+    "english": "SOUND IN PRINT",
+    "subtitle": "实验文字展",
+    "date": "2026.12.18—2027.01.10",
+    "place": "回声美术馆",
+    "time": "10:00—18:00"
+  },
+  "graphics": [
+    {
+      "type": "rect",
+      "x": 0,
+      "y": 1080,
+      "width": 1080,
+      "height": 360,
+      "color": "#FF8A35"
+    },
+    {
+      "type": "rect",
+      "x": 80,
+      "y": 100,
+      "width": 140,
+      "height": 12,
+      "color": "#FF8A35"
+    }
+  ],
+  "blocks": [
+    {
+      "copy_id": "title",
+      "font": "source-han-serif",
+      "x": 80,
+      "y": 175,
+      "width": 920,
+      "height": 510,
+      "size": 216,
+      "color": "#FFFFFF",
+      "lines": [
+        "看见",
+        "声音"
+      ],
+      "line_height": 248
+    },
+    {
+      "copy_id": "english",
+      "font": "wdxl",
+      "x": 86,
+      "y": 755,
+      "width": 908,
+      "height": 104,
+      "size": 88,
+      "color": "#FF8A35"
+    },
+    {
+      "copy_id": "subtitle",
+      "font": "source-han-sans",
+      "x": 86,
+      "y": 940,
+      "width": 908,
+      "height": 76,
+      "size": 54,
+      "color": "#FFFFFF"
+    },
+    {
+      "copy_id": "date",
+      "font": "source-han-sans",
+      "x": 86,
+      "y": 1130,
+      "width": 908,
+      "height": 66,
+      "size": 42,
+      "color": "#982565"
+    },
+    {
+      "copy_id": "place",
+      "font": "source-han-sans",
+      "x": 86,
+      "y": 1260,
+      "width": 580,
+      "height": 64,
+      "size": 46,
+      "color": "#982565"
+    },
+    {
+      "copy_id": "time",
+      "font": "source-han-sans",
+      "x": 655,
+      "y": 1265,
+      "width": 339,
+      "height": 58,
+      "size": 40,
+      "color": "#982565",
+      "align": "right"
+    }
+  ]
+}

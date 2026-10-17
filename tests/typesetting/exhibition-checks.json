@@ -1,0 +1,161 @@
+{
+  "blocks": [
+    {
+      "copy_id": "title",
+      "text": "看见声音",
+      "font": "source-han-serif",
+      "size": 216,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "看见",
+          "left": 84,
+          "right": 508,
+          "top": 202,
+          "bottom": 412,
+          "layout_left": 80,
+          "layout_right": 512
+        },
+        {
+          "text": "声音",
+          "left": 84,
+          "right": 506,
+          "top": 453,
+          "bottom": 660,
+          "layout_left": 80,
+          "layout_right": 512
+        }
+      ]
+    },
+    {
+      "copy_id": "english",
+      "text": "SOUND IN PRINT",
+      "font": "wdxl",
+      "size": 88,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "SOUND IN PRINT",
+          "left": 90,
+          "right": 594.911865234375,
+          "top": 780,
+          "bottom": 844,
+          "layout_left": 86,
+          "layout_right": 594.911865234375
+        }
+      ]
+    },
+    {
+      "copy_id": "subtitle",
+      "text": "实验文字展",
+      "font": "source-han-sans",
+      "size": 54,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "实验文字展",
+          "left": 89,
+          "right": 355,
+          "top": 947,
+          "bottom": 1000,
+          "layout_left": 86,
+          "layout_right": 356
+        }
+      ]
+    },
+    {
+      "copy_id": "date",
+      "text": "2026.12.18—2027.01.10",
+      "font": "source-han-sans",
+      "size": 42,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "2026.12.18—2027.01.10",
+          "left": 87,
+          "right": 574.4359741210938,
+          "top": 1140,
+          "bottom": 1173,
+          "layout_left": 86,
+          "layout_right": 575.2159423828125
+        }
+      ]
+    },
+    {
+      "copy_id": "place",
+      "text": "回声美术馆",
+      "font": "source-han-sans",
+      "size": 46,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "回声美术馆",
+          "left": 88,
+          "right": 315,
+          "top": 1266,
+          "bottom": 1311,
+          "layout_left": 86,
+          "layout_right": 316
+        }
+      ]
+    },
+    {
+      "copy_id": "time",
+      "text": "10:00—18:00",
+      "font": "source-han-sans",
+      "size": 40,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "10:00—18:00",
+          "left": 745.8800811767578,
+          "right": 993.4000091552734,
+          "top": 1275,
+          "bottom": 1306,
+          "layout_left": 742.8800811767578,
+          "layout_right": 994
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "a605e5c1aae9c68df70a059a31b553d42d0a9d3635f52e7c8db0389ed517f431",
+  "visual_review": {
+    "status": "reviewed",
+    "reviewer": "current assistant",
+    "date": "2026-10-16",
+    "copy": "all specified items visually checked against the layout copy list",
+    "extra_text": "none; labels permitted only on the internal font comparison sheet",
+    "viewing_sizes": [
+      1080,
+      390
+    ],
+    "independent_human_review": false
+  }
+}

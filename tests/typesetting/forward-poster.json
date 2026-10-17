@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#DAF07C"
+  },
+  "copy": {
+    "title": "向前一步",
+    "english": "RUN THE NIGHT",
+    "tagline": "按自己的节奏出发",
+    "date": "2026.11.07",
+    "time": "19:30",
+    "place": "环湖步道"
+  },
+  "graphics": [
+    {
+      "type": "rect",
+      "x": 0,
+      "y": 1150,
+      "width": 1080,
+      "height": 290,
+      "color": "#24362C"
+    },
+    {
+      "type": "rect",
+      "x": 82,
+      "y": 102,
+      "width": 916,
+      "height": 8,
+      "color": "#24362C"
+    }
+  ],
+  "blocks": [
+    {
+      "copy_id": "title",
+      "font": "source-han-sans",
+      "x": 82,
+      "y": 138,
+      "width": 916,
+      "height": 704,
+      "size": 300,
+      "color": "#24362C",
+      "lines": [
+        "向前",
+        "一步"
+      ],
+      "line_height": 326,
+      "transform": {
+        "skew_x": 6
+      }
+    },
+    {
+      "copy_id": "english",
+      "font": "wdxl",
+      "x": 82,
+      "y": 855,
+      "width": 916,
+      "height": 110,
+      "size": 83,
+      "color": "#24362C",
+      "transform": {
+        "skew_x": 6
+      }
+    },
+    {
+      "copy_id": "tagline",
+      "font": "source-han-sans",
+      "x": 82,
+      "y": 1010,
+      "width": 916,
+      "height": 66,
+      "size": 44,
+      "color": "#24362C"
+    },
+    {
+      "copy_id": "date",
+      "font": "source-han-sans",
+      "x": 82,
+      "y": 1200,
+      "width": 560,
+      "height": 70,
+      "size": 48,
+      "color": "#DAF07C"
+    },
+    {
+      "copy_id": "time",
+      "font": "source-han-sans",
+      "x": 700,
+      "y": 1200,
+      "width": 298,
+      "height": 70,
+      "size": 48,
+      "color": "#DAF07C",
+      "align": "right"
+    },
+    {
+      "copy_id": "place",
+      "font": "source-han-sans",
+      "x": 82,
+      "y": 1300,
+      "width": 916,
+      "height": 70,
+      "size": 48,
+      "color": "#DAF07C"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "blocks": [
+    {
+      "copy_id": "title",
+      "text": "夜行音乐会",
+      "font": "smiley",
+      "size": 218,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "夜行",
+          "left": 94,
+          "right": 423.3999938964844,
+          "top": 155,
+          "bottom": 368,
+          "layout_left": 80,
+          "layout_right": 428.79998779296875
+        },
+        {
+          "text": "音乐会",
+          "left": 101,
+          "right": 600.7999877929688,
+          "top": 414,
+          "bottom": 628,
+          "layout_left": 80,
+          "layout_right": 603.199951171875
+        }
+      ]
+    },
+    {
+      "copy_id": "tagline",
+      "text": "让节拍穿过街道",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "让节拍穿过街道",
+          "left": 89,
+          "right": 423,
+          "top": 778,
+          "bottom": 825,
+          "layout_left": 88,
+          "layout_right": 424
+        }
+      ]
+    },
+    {
+      "copy_id": "date",
+      "text": "2026.12.05",
+      "font": "wdxl",
+      "size": 100,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "2026.12.05",
+          "left": 92,
+          "right": 502.39990234375,
+          "top": 1068,
+          "bottom": 1141,
+          "layout_left": 88,
+          "layout_right": 506.19989013671875
+        }
+      ]
+    },
+    {
+      "copy_id": "time",
+      "text": "19:30—21:00",
+      "font": "source-han-sans",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "19:30—21:00",
+          "left": 91,
+          "right": 363.27191162109375,
+          "top": 1190,
+          "bottom": 1225,
+          "layout_left": 88,
+          "layout_right": 364.2319030761719
+        }
+      ]
+    },
+    {
+      "copy_id": "place",
+      "text": "回声剧场",
+      "font": "source-han-sans",
+      "size": 46,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "回声剧场",
+          "left": 90,
+          "right": 271,
+          "top": 1302,
+          "bottom": 1346,
+          "layout_left": 88,
+          "layout_right": 272
+        }
+      ]
+    },
+    {
+      "copy_id": "admission",
+      "text": "凭票入场",
+      "font": "source-han-sans",
+      "size": 46,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "凭票入场",
+          "left": 808,
+          "right": 991,
+          "top": 1301,
+          "bottom": 1346,
+          "layout_left": 808,
+          "layout_right": 992
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "85f01e861e7a4ea5c8f34bcbb6c865c442e10cc2ff20af8b6d7d2ef181e8d28b",
+  "visual_review": {
+    "status": "reviewed",
+    "reviewer": "current assistant",
+    "date": "2026-10-16",
+    "copy": "all specified items visually checked against the layout copy list",
+    "extra_text": "none; labels permitted only on the internal font comparison sheet",
+    "viewing_sizes": [
+      1080,
+      390
+    ],
+    "independent_human_review": false
+  }
+}

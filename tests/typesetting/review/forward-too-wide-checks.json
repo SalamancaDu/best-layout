@@ -1,0 +1,141 @@
+{
+  "blocks": [
+    {
+      "copy_id": "title",
+      "text": "向前一步",
+      "font": "source-han-sans",
+      "size": 228,
+      "transform": {
+        "scale_x": 1.4,
+        "scale_y": 0.98,
+        "skew_x": 14
+      },
+      "lines": [
+        {
+          "text": "向前",
+          "left": 92.06882970148735,
+          "right": 745.4465813433318,
+          "top": 226.34,
+          "bottom": 438.02
+        },
+        {
+          "text": "一步",
+          "left": 78.31317114427365,
+          "right": 742.6465813433318,
+          "top": 473.29999999999995,
+          "bottom": 684
+        }
+      ]
+    },
+    {
+      "copy_id": "english",
+      "text": "RUN THE NIGHT",
+      "font": "oswald-stencil",
+      "size": 83,
+      "transform": {
+        "scale_x": 1.12,
+        "scale_y": 1,
+        "skew_x": 8
+      },
+      "lines": [
+        {
+          "text": "RUN THE NIGHT",
+          "left": 86.19891833059522,
+          "right": 640.005646767977,
+          "top": 864,
+          "bottom": 940
+        }
+      ]
+    },
+    {
+      "copy_id": "tagline",
+      "text": "按自己的节奏出发",
+      "font": "source-han-sans",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "按自己的节奏出发",
+          "left": 82,
+          "right": 434,
+          "top": 1016,
+          "bottom": 1059
+        }
+      ]
+    },
+    {
+      "copy_id": "date",
+      "text": "2026.11.07",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "2026.11.07",
+          "left": 83,
+          "right": 338.43994140625,
+          "top": 1211,
+          "bottom": 1249
+        }
+      ]
+    },
+    {
+      "copy_id": "time",
+      "text": "19:30",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "19:30",
+          "left": 872.1200408935547,
+          "right": 996.6800079345703,
+          "top": 1211,
+          "bottom": 1249
+        }
+      ]
+    },
+    {
+      "copy_id": "place",
+      "text": "环湖步道",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "环湖步道",
+          "left": 82,
+          "right": 273,
+          "top": 1306,
+          "bottom": 1353
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "6bd1124d740b0632c7e3bb9018401fb691caba9c1f912ab97c9a011c7b45fb3e",
+  "visual_review": {
+    "status": "rejected_by_user",
+    "date": "2026-10-16",
+    "reason": "标题过于扁宽；技术检查通过不能替代审美判断。",
+    "technical_checks": "passed before user review"
+  }
+}

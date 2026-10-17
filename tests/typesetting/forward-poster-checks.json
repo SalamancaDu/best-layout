@@ -1,0 +1,161 @@
+{
+  "blocks": [
+    {
+      "copy_id": "title",
+      "text": "向前一步",
+      "font": "source-han-sans",
+      "size": 300,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 6
+      },
+      "lines": [
+        {
+          "text": "向前",
+          "left": 102.48144338315285,
+          "right": 695.0346856544322,
+          "top": 180.1875,
+          "bottom": 466.125,
+          "layout_left": 82,
+          "layout_right": 695.0346856544322
+        },
+        {
+          "text": "一步",
+          "left": 88.41894338315285,
+          "right": 695.0346856544322,
+          "top": 506.1875,
+          "bottom": 792.125,
+          "layout_left": 82,
+          "layout_right": 695.0346856544322
+        }
+      ]
+    },
+    {
+      "copy_id": "english",
+      "text": "RUN THE NIGHT",
+      "font": "wdxl",
+      "size": 83,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 6
+      },
+      "lines": [
+        {
+          "text": "RUN THE NIGHT",
+          "left": 84.89489576473433,
+          "right": 536.8690575955186,
+          "top": 879,
+          "bottom": 939,
+          "layout_left": 82,
+          "layout_right": 536.8690575955186
+        }
+      ]
+    },
+    {
+      "copy_id": "tagline",
+      "text": "按自己的节奏出发",
+      "font": "source-han-sans",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "按自己的节奏出发",
+          "left": 82,
+          "right": 434,
+          "top": 1016,
+          "bottom": 1059,
+          "layout_left": 82,
+          "layout_right": 434
+        }
+      ]
+    },
+    {
+      "copy_id": "date",
+      "text": "2026.11.07",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "2026.11.07",
+          "left": 83,
+          "right": 338.43994140625,
+          "top": 1211,
+          "bottom": 1249,
+          "layout_left": 82,
+          "layout_right": 339.7599182128906
+        }
+      ]
+    },
+    {
+      "copy_id": "time",
+      "text": "19:30",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "19:30",
+          "left": 872.1200408935547,
+          "right": 996.6800079345703,
+          "top": 1211,
+          "bottom": 1249,
+          "layout_left": 869.1200408935547,
+          "layout_right": 998
+        }
+      ]
+    },
+    {
+      "copy_id": "place",
+      "text": "环湖步道",
+      "font": "source-han-sans",
+      "size": 48,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "环湖步道",
+          "left": 82,
+          "right": 273,
+          "top": 1306,
+          "bottom": 1353,
+          "layout_left": 82,
+          "layout_right": 274
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "285fc34821666cec75dc42d25aa556d26f24ae868c95fcb0e1edc59a386ffeee",
+  "visual_review": {
+    "status": "reviewed",
+    "reviewer": "current assistant",
+    "date": "2026-10-16",
+    "copy": "all specified items visually checked against the layout copy list",
+    "extra_text": "none; labels permitted only on the internal font comparison sheet",
+    "viewing_sizes": [
+      1080,
+      390
+    ],
+    "independent_human_review": false
+  }
+}

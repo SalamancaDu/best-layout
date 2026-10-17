@@ -1,0 +1,76 @@
+{
+  "blocks": [
+    {
+      "copy_id": "title",
+      "text": "在日常之间，重新看见器物",
+      "font": "xiangcui",
+      "size": 106,
+      "lines": [
+        {
+          "text": "在日常之间，重新看见器物",
+          "left": 84,
+          "right": 1348,
+          "top": 154,
+          "bottom": 269
+        }
+      ]
+    },
+    {
+      "copy_id": "body",
+      "text": "从杯、盘与花器出发，观察使用留下的痕迹。",
+      "font": "wenkai-gb",
+      "size": 48,
+      "lines": [
+        {
+          "text": "从杯、盘与花器出发，观察使用留下的痕迹。",
+          "left": 81,
+          "right": 1010,
+          "top": 448,
+          "bottom": 493
+        }
+      ]
+    },
+    {
+      "copy_id": "date",
+      "text": "2026.11.06—11.22",
+      "font": "source-han-sans",
+      "size": 46,
+      "lines": [
+        {
+          "text": "2026.11.06—11.22",
+          "left": 81,
+          "right": 491.157958984375,
+          "top": 741,
+          "bottom": 777
+        }
+      ]
+    },
+    {
+      "copy_id": "place",
+      "text": "青禾空间",
+      "font": "source-han-sans",
+      "size": 46,
+      "lines": [
+        {
+          "text": "青禾空间",
+          "left": 1338,
+          "right": 1518,
+          "top": 736,
+          "bottom": 781
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1600,
+  "height": 900,
+  "sha256": "1c23ebb44468ed9989f3170ce55c6d8dcef402d45336277fb0b7120b14a5130c",
+  "visual_review": {
+    "status": "reviewed",
+    "reviewer": "current assistant",
+    "date": "2026-10-16",
+    "copy": "all specified items checked",
+    "extra_text": "none; font names allowed only on internal font comparison",
+    "independent_human_review": false
+  }
+}

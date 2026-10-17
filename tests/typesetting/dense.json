@@ -1,0 +1,252 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1152,
+    "height": 2048,
+    "background": "#F5F3EC"
+  },
+  "copy": {
+    "item00": "周末旧物修理站",
+    "item01": "REPAIR TOGETHER",
+    "item02": "2026.12.12",
+    "item03": "10:00—17:00",
+    "item04": "回声社区工坊",
+    "item05": "01 可带物品",
+    "item06": "衣物、布袋、木质小件与自行车配件。每人限带 2 件；请提前清洁，并保留拆下的零件。",
+    "item07": "02 不接收范围",
+    "item08": "电池、电源适配器、燃气设备和带液体的器具不在本次活动范围内，请勿带到现场。",
+    "item09": "03 时间安排",
+    "item10": "10:00—12:00 现场登记",
+    "item11": "13:00—16:00 共同修理",
+    "item12": "16:00—17:00 整理与交流",
+    "item13": "04 参与方式",
+    "item14": "无需预约，按到场顺序登记。未成年人须由成年人陪同；每件物品先检查，再决定是否适合现场处理。",
+    "item15": "05 需要准备",
+    "item16": "请携带物品、相关配件和一个收纳袋。现场提供常用手工具；特殊耗材请自备。",
+    "item17": "06 费用与后续",
+    "item18": "参与免费，替换材料按实际用量登记。无法当天处理的物品须自行带回，现场不提供寄存。",
+    "item19": "咨询：hello@example.com"
+  },
+  "graphics": [
+    {
+      "type": "rect",
+      "x": 72,
+      "y": 382,
+      "width": 1008,
+      "height": 3,
+      "color": "#234B40"
+    }
+  ],
+  "blocks": [
+    {
+      "copy_id": "item00",
+      "font": "source-han-sans",
+      "x": 72,
+      "y": 50,
+      "width": 1008,
+      "height": 94,
+      "size": 76,
+      "color": "#234B40"
+    },
+    {
+      "copy_id": "item01",
+      "font": "wdxl",
+      "x": 74,
+      "y": 157,
+      "width": 620,
+      "height": 58,
+      "size": 46,
+      "color": "#234B40"
+    },
+    {
+      "copy_id": "item02",
+      "font": "source-han-sans",
+      "x": 72,
+      "y": 234,
+      "width": 330,
+      "height": 56,
+      "size": 40,
+      "color": "#242B26"
+    },
+    {
+      "copy_id": "item03",
+      "font": "source-han-sans",
+      "x": 420,
+      "y": 234,
+      "width": 660,
+      "height": 56,
+      "size": 40,
+      "color": "#242B26"
+    },
+    {
+      "copy_id": "item04",
+      "font": "source-han-sans",
+      "x": 72,
+      "y": 302,
+      "width": 1008,
+      "height": 60,
+      "size": 44,
+      "color": "#242B26"
+    },
+    {
+      "copy_id": "item05",
+      "font": "source-han-sans",
+      "x": 72,
+      "y": 410,
+      "width": 1008,
+      "height": 62,
+      "size": 48,
+      "color": "#234B40"
+    },
+    {
+      "copy_id": "item06",
+      "font": "wenkai-gb",
+      "x": 72,
+      "y": 480,
+      "width": 1008,
+      "height": 166,
+      "size": 44,
+      "color": "#242B26",
+      "line_height": 54
+    },
+    {
+      "copy_id": "item07",
+      "font": "source-han-sans",
+      "x": 72,
+      "y": 660,
+      "width": 1008,
+      "height": 62,
+      "size": 48,
+      "color": "#234B40"
+    },
+    {
+      "copy_id": "item08",
+      "font": "wenkai-gb",
+      "x": 72,
+      "y": 730,
+      "width": 1008,
+      "height": 166,
+      "size": 44,
+      "color": "#242B26",
+      "line_height": 54
+    },
+    {
+      "copy_id": "item09",
+      "font": "source-han-sans",
+      "x": 72,
+      "y": 910,
+      "width": 1008,
+      "height": 62,
+      "size": 48,
+      "color": "#234B40"
+    },
+    {
+      "copy_id": "item10",
+      "font": "wenkai-gb",
+      "x": 72,
+      "y": 980,
+      "width": 1008,
+      "height": 56,
+      "size": 44,
+      "color": "#242B26"
+    },
+    {
+      "copy_id": "item11",
+      "font": "wenkai-gb",
+      "x": 72,
+      "y": 1036,
+      "width": 1008,
+      "height": 56,
+      "size": 44,
+      "color": "#242B26"
+    },
+    {
+      "copy_id": "item12",
+      "font": "wenkai-gb",
+      "x": 72,
+      "y": 1092,
+      "width": 1008,
+      "height": 56,
+      "size": 44,
+      "color": "#242B26"
+    },
+    {
+      "copy_id": "item13",
+      "font": "source-han-sans",
+      "x": 72,
+      "y": 1170,
+      "width": 1008,
+      "height": 62,
+      "size": 48,
+      "color": "#234B40"
+    },
+    {
+      "copy_id": "item14",
+      "font": "wenkai-gb",
+      "x": 72,
+      "y": 1240,
+      "width": 1008,
+      "height": 166,
+      "size": 44,
+      "color": "#242B26",
+      "line_height": 54,
+      "lines": [
+        "无需预约，按到场顺序登记。未成年人",
+        "须由成年人陪同；每件物品先检查，",
+        "再决定是否适合现场处理。"
+      ]
+    },
+    {
+      "copy_id": "item15",
+      "font": "source-han-sans",
+      "x": 72,
+      "y": 1420,
+      "width": 1008,
+      "height": 62,
+      "size": 48,
+      "color": "#234B40"
+    },
+    {
+      "copy_id": "item16",
+      "font": "wenkai-gb",
+      "x": 72,
+      "y": 1490,
+      "width": 1008,
+      "height": 166,
+      "size": 44,
+      "color": "#242B26",
+      "line_height": 54
+    },
+    {
+      "copy_id": "item17",
+      "font": "source-han-sans",
+      "x": 72,
+      "y": 1670,
+      "width": 1008,
+      "height": 62,
+      "size": 48,
+      "color": "#234B40"
+    },
+    {
+      "copy_id": "item18",
+      "font": "wenkai-gb",
+      "x": 72,
+      "y": 1740,
+      "width": 1008,
+      "height": 166,
+      "size": 44,
+      "color": "#242B26",
+      "line_height": 54
+    },
+    {
+      "copy_id": "item19",
+      "font": "wenkai-gb",
+      "x": 72,
+      "y": 1955,
+      "width": 1008,
+      "height": 60,
+      "size": 42,
+      "color": "#234B40"
+    }
+  ]
+}

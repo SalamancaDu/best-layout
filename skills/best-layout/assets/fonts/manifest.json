@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "fonts": [
+    {
+      "id": "source-han-sans",
+      "label": "思源黑体 · Bold",
+      "path": "source-han-sans/SourceHanSansCN-Bold.otf",
+      "license": "source-han-sans/OFL.txt",
+      "license_id": "OFL-1.1",
+      "bytes": 8569308,
+      "sha256": "62383707c086a32f3afd5e293f34c7eff64c7fea31f579fdc6cbe34d920519a6",
+      "license_sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+      "source": {
+        "repo": "adobe-fonts/source-han-sans",
+        "commit": "a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2",
+        "font_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2/SubsetOTF/CN/SourceHanSansCN-Bold.otf",
+        "license_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2/LICENSE.txt"
+      },
+      "notes": "原生 Bold；不伪造细字重。适合标题、导语及对比明确的信息。",
+      "weight": 700
+    },
+    {
+      "id": "source-han-serif",
+      "label": "思源宋体 · Heavy",
+      "path": "source-han-serif/SourceHanSerifCN-Heavy.otf",
+      "license": "source-han-serif/OFL.txt",
+      "license_id": "OFL-1.1",
+      "bytes": 11862952,
+      "sha256": "053e911fdb1a55d4d8512a1f11203f1fb9a7291e34bc260474b8c80358c69fa6",
+      "license_sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "source": {
+        "repo": "adobe-fonts/source-han-serif",
+        "commit": "7889f11bf31170b5d092a083b357c8c8130f89e0",
+        "font_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/7889f11bf31170b5d092a083b357c8c8130f89e0/SubsetOTF/CN/SourceHanSerifCN-Heavy.otf",
+        "license_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/7889f11bf31170b5d092a083b357c8c8130f89e0/LICENSE.txt"
+      },
+      "notes": "原生 Heavy；优先用于展示标题，不作为密集正文默认字体。",
+      "weight": 900
+    },
+    {
+      "id": "wenkai-gb",
+      "label": "霞鹜文楷 GB · Regular",
+      "path": "wenkai-gb/LXGWWenKaiGB-Regular.ttf",
+      "license": "wenkai-gb/OFL.txt",
+      "license_id": "OFL-1.1",
+      "bytes": 26170696,
+      "sha256": "c27acbfd5aa95e3cc97cf4cb55ed207143c48396bca86ddc0c339858d7116390",
+      "license_sha256": "a8aa32c38a3402ba4e40fb6d39c913300dd4a0336290dce5c14e3a2f9308d092",
+      "source": {
+        "repo": "lxgw/LxgwWenKaiGB",
+        "commit": "401fa014d4abbf5a2b2863629074c47badf2031e",
+        "font_url": "https://raw.githubusercontent.com/lxgw/LxgwWenKaiGB/401fa014d4abbf5a2b2863629074c47badf2031e/fonts/TTF/LXGWWenKaiGB-Regular.ttf",
+        "license_url": "https://raw.githubusercontent.com/lxgw/LxgwWenKaiGB/401fa014d4abbf5a2b2863629074c47badf2031e/OFL.txt"
+      },
+      "notes": "Regular；适合人文类正文。罕见字仍须逐字核对。"
+    },
+    {
+      "id": "unbounded",
+      "label": "标小智无界黑",
+      "path": "unbounded/标小智无界黑.ttf",
+      "license": "unbounded/OFL.txt",
+      "license_id": "OFL-1.1",
+      "bytes": 2836736,
+      "sha256": "b25b6b546701a7ce296a847660f859bb42d2cf3dad16f11f78e1f18f3d2b29f8",
+      "license_sha256": "98d9a03804b968bea35bf2ee7f45d203260751d4307bf5e9cb2d9b4b5bfb130d",
+      "source": {
+        "font_url": "https://www.logosc.cn/LogoSCUnboundedSans.zip",
+        "source": "https://www.logosc.cn/sheji/625",
+        "archive_member": "µáçσ░ÅµÖ║µùáτòîΘ╗æ/µáçσ░ÅµÖ║µùáτòîΘ╗æ.ttf"
+      },
+      "notes": "展示标题；可按设计需要整组处理比例。"
+    },
+    {
+      "id": "xiangcui",
+      "label": "香萃等粗宋",
+      "path": "xiangcui/XiangcuiDengcusong.ttf",
+      "license": "xiangcui/OFL.txt",
+      "license_id": "OFL-1.1",
+      "bytes": 23375916,
+      "sha256": "a97c5889f804cde17bd19e44929736e90f0cd4c96ac25120847135a8884f66b2",
+      "license_sha256": "697383c6addd5dd14d7e1ff053aaa44520ce86a58589eef1f9985ab66e08db08",
+      "source": {
+        "repo": "Miiiller/Xiangcui-Dengcusong",
+        "commit": "e4317ae43be649459fe270ba65a7f844c7f83a8e",
+        "font_url": "https://raw.githubusercontent.com/Miiiller/Xiangcui-Dengcusong/e4317ae43be649459fe270ba65a7f844c7f83a8e/XiangcuiDengcusong.ttf",
+        "license_url": "https://raw.githubusercontent.com/Miiiller/Xiangcui-Dengcusong/e4317ae43be649459fe270ba65a7f844c7f83a8e/SIL_Open_Font_License_1.1.txt"
+      },
+      "notes": "等粗宋体；标题与短段落按实际阅读尺寸检查。"
+    },
+    {
+      "id": "qiji",
+      "label": "齊伋體",
+      "path": "qiji/qiji.ttf",
+      "license": "qiji/OFL.txt",
+      "license_id": "OFL-1.1",
+      "bytes": 11038112,
+      "sha256": "2ee30738d37b102bfa90e56cd04fde2620ccef012b44390b77b0703cf995cf5b",
+      "license_sha256": "eb78b6a2c5755bc873dc1857e4776e45b238768ed85c4a84fe78300f2451180d",
+      "source": {
+        "repo": "LingDong-/qiji-font",
+        "release": "0.0.4",
+        "font_url": "https://github.com/LingDong-/qiji-font/releases/download/0.0.4/qiji.ttf",
+        "license_url": "https://raw.githubusercontent.com/LingDong-/qiji-font/f7971a4345b1101796763092425ba10b8f5ad95e/LICENSE"
+      },
+      "notes": "历史刻本字形，部分码位显示异体；缺少很多标点、英文与数字。缺字报错，不自动简繁转换或替换文案。"
+    },
+    {
+      "id": "smiley",
+      "label": "得意黑",
+      "path": "smiley/SmileySans-Oblique.ttf",
+      "license": "smiley/OFL.txt",
+      "license_id": "OFL-1.1",
+      "bytes": 2629764,
+      "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+      "license_sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+      "source": {
+        "repo": "atelier-anchor/smiley-sans",
+        "release": "v2.0.1",
+        "font_url": "https://github.com/atelier-anchor/smiley-sans/releases/download/v2.0.1/smiley-sans-v2.0.1.zip",
+        "license_url": "https://raw.githubusercontent.com/atelier-anchor/smiley-sans/cbf2ce4a27933855e400f693265ef890fb60f21d/LICENSE",
+        "archive_member": "SmileySans-Oblique.ttf"
+      },
+      "notes": "原生倾斜形态；额外斜切时评估叠加效果。适合短标题。"
+    },
+    {
+      "id": "wdxl",
+      "label": "WD-XL 滑油字 · SC",
+      "path": "wdxl/WD-XLLubrifontSC-Regular.ttf",
+      "license": "wdxl/OFL.txt",
+      "license_id": "OFL-1.1",
+      "bytes": 11776536,
+      "sha256": "4ac6ed4ff68672535b18204b0ae4d39550b4dad1a2a78b92c45613a252bc6022",
+      "license_sha256": "c1426279bc38dde2a39bed76db54e93c9f2daf3aff960be62382a1efeb4b30e5",
+      "source": {
+        "repo": "NightFurySL2001/WD-XL-font",
+        "commit": "4db65d808c17cf74ff8f07a2c39b664746e9d6a2",
+        "font_url": "https://raw.githubusercontent.com/NightFurySL2001/WD-XL-font/4db65d808c17cf74ff8f07a2c39b664746e9d6a2/fonts/TTF/WD-XLLubrifontSC-Regular.ttf",
+        "license_url": "https://raw.githubusercontent.com/NightFurySL2001/WD-XL-font/4db65d808c17cf74ff8f07a2c39b664746e9d6a2/OFL.txt"
+      },
+      "notes": "SC 简体变体；窄体展示文字。"
+    },
+    {
+      "id": "marker",
+      "label": "霞鹜漫黑",
+      "path": "marker/LXGWMarkerGothic-Regular.ttf",
+      "license": "marker/OFL.txt",
+      "license_id": "OFL-1.1",
+      "bytes": 3190368,
+      "sha256": "cfc0facbc1084735596425f91650c0ffef2130f0853556476bdd9f59e164d382",
+      "license_sha256": "a5e70c8b156c4103b96a4f6af65ad6562e03c0e87373dc3ab43e04d6997ec46e",
+      "source": {
+        "repo": "lxgw/LxgwMarkerGothic",
+        "commit": "e61e46247b1916cf85ccc72d3a58a0f9fc956755",
+        "font_url": "https://raw.githubusercontent.com/lxgw/LxgwMarkerGothic/e61e46247b1916cf85ccc72d3a58a0f9fc956755/fonts/ttf/LXGWMarkerGothic-Regular.ttf",
+        "license_url": "https://raw.githubusercontent.com/lxgw/LxgwMarkerGothic/e61e46247b1916cf85ccc72d3a58a0f9fc956755/OFL.txt"
+      },
+      "notes": "手写感展示字；长正文另选可连续阅读的字体。"
+    },
+    {
+      "id": "fusion-pixel",
+      "label": "缝合像素字体 · 12px",
+      "path": "fusion-pixel/fusion-pixel-12px-proportional-zh_hans.ttf",
+      "license": "fusion-pixel/OFL.txt",
+      "license_id": "OFL-1.1",
+      "bytes": 7053672,
+      "sha256": "b2ee68647dc257fa697e4d0c78f9b59461bc504a023b9a3b5ad66f358bbb1613",
+      "license_sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63",
+      "source": {
+        "repo": "TakWolf/fusion-pixel-font",
+        "release": "2026.09.25",
+        "font_url": "https://github.com/TakWolf/fusion-pixel-font/releases/download/2026.09.25/fusion-pixel-font-12px-proportional-ttf-v2026.09.25.zip",
+        "license_url": "https://raw.githubusercontent.com/TakWolf/fusion-pixel-font/0feb9fadaa367a91d085f7d70325a4c000ff8e3e/LICENSE-OFL",
+        "archive_member": "fusion-pixel-12px-proportional-zh_hans.ttf"
+      },
+      "notes": "12px、proportional、zh_hans 变体；原尺寸建议使用 12 的整数倍字号。"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "blocks": [
+    {
+      "copy_id": "ellipsis",
+      "text": "观察日常……重新看见生活。",
+      "font": "source-han-sans",
+      "size": 40,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "观察日常",
+          "left": 40,
+          "right": 199,
+          "top": 55,
+          "bottom": 94,
+          "layout_left": 40,
+          "layout_right": 201
+        },
+        {
+          "text": "……重新看",
+          "left": 43,
+          "right": 239,
+          "top": 111,
+          "bottom": 150,
+          "layout_left": 40,
+          "layout_right": 240
+        },
+        {
+          "text": "见生活。",
+          "left": 40,
+          "right": 175,
+          "top": 167,
+          "bottom": 206,
+          "layout_left": 40,
+          "layout_right": 200
+        }
+      ]
+    },
+    {
+      "copy_id": "temperature",
+      "text": "温度 20 ℃，湿度 50%。",
+      "font": "source-han-sans",
+      "size": 40,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "温度 ",
+          "left": 340,
+          "right": 420,
+          "top": 55,
+          "bottom": 94,
+          "layout_left": 340,
+          "layout_right": 429.0799865722656
+        },
+        {
+          "text": "20 ℃，湿",
+          "left": 340,
+          "right": 516.2799682617188,
+          "top": 112,
+          "bottom": 152,
+          "layout_left": 340,
+          "layout_right": 516.2799682617188
+        },
+        {
+          "text": "度 50%。",
+          "left": 340,
+          "right": 489.7999572753906,
+          "top": 167,
+          "bottom": 206,
+          "layout_left": 340,
+          "layout_right": 514.7999572753906
+        }
+      ]
+    },
+    {
+      "copy_id": "prefix",
+      "text": "参考值 ± 3，价格 ￥ 128。",
+      "font": "source-han-sans",
+      "size": 40,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "参考值 ± 3，",
+          "left": 580,
+          "right": 798.7599639892578,
+          "top": 55,
+          "bottom": 96,
+          "layout_left": 580,
+          "layout_right": 821.7599639892578
+        },
+        {
+          "text": "价格 ￥ 128。",
+          "left": 580,
+          "right": 803.9599456787109,
+          "top": 111,
+          "bottom": 150,
+          "layout_left": 580,
+          "layout_right": 828.9599456787109
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 900,
+  "height": 450,
+  "sha256": "c498b75c0104a6a1fc6c93887ee9ae22e0da22d108b5c3c7dcdd99689ffda33c",
+  "visual_review": {
+    "status": "reviewed",
+    "reviewer": "current assistant",
+    "date": "2026-10-16",
+    "copy": "all specified items visually checked against the layout copy list",
+    "extra_text": "none; labels permitted only on the internal font comparison sheet",
+    "viewing_sizes": [
+      900
+    ],
+    "independent_human_review": false
+  }
+}
