@@ -1,0 +1,404 @@
+{
+  "purpose": "internal font comparison; not a final artwork selection",
+  "copy_ids": [
+    "collapse"
+  ],
+  "candidates": [
+    {
+      "font": "source-han-serif",
+      "image": "source-han-serif.png",
+      "render": {
+        "blocks": [
+          {
+            "copy_id": "collapse",
+            "text": "崩溃",
+            "font": "source-han-serif",
+            "size": 400,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "崩溃",
+                "left": 96.25,
+                "right": 883.75,
+                "top": 156.25,
+                "bottom": 543.75,
+                "layout_left": 90,
+                "layout_right": 890
+              }
+            ]
+          },
+          {
+            "copy_id": "particle",
+            "text": "的",
+            "font": "source-han-sans",
+            "size": 92,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "的",
+                "left": 102,
+                "right": 184,
+                "top": 714,
+                "bottom": 800,
+                "layout_left": 96,
+                "layout_right": 188
+              }
+            ]
+          },
+          {
+            "copy_id": "economy",
+            "text": "古巴经济",
+            "font": "source-han-sans",
+            "size": 205,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "古巴经济",
+                "left": 98,
+                "right": 907,
+                "top": 909,
+                "bottom": 1104,
+                "layout_left": 90,
+                "layout_right": 910
+              }
+            ]
+          }
+        ],
+        "images": [],
+        "width": 1080,
+        "height": 1440,
+        "sha256": "2f9ace81da5e3393fa70b3e12dd7ab90502e1dbc40728b5b866012cf4530def4",
+        "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+      }
+    },
+    {
+      "font": "source-han-sans",
+      "image": "source-han-sans.png",
+      "render": {
+        "blocks": [
+          {
+            "copy_id": "collapse",
+            "text": "崩溃",
+            "font": "source-han-sans",
+            "size": 400,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "崩溃",
+                "left": 96.25,
+                "right": 877.5,
+                "top": 156.25,
+                "bottom": 543.75,
+                "layout_left": 90,
+                "layout_right": 890
+              }
+            ]
+          },
+          {
+            "copy_id": "particle",
+            "text": "的",
+            "font": "source-han-sans",
+            "size": 92,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "的",
+                "left": 102,
+                "right": 184,
+                "top": 714,
+                "bottom": 800,
+                "layout_left": 96,
+                "layout_right": 188
+              }
+            ]
+          },
+          {
+            "copy_id": "economy",
+            "text": "古巴经济",
+            "font": "source-han-sans",
+            "size": 205,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "古巴经济",
+                "left": 98,
+                "right": 907,
+                "top": 909,
+                "bottom": 1104,
+                "layout_left": 90,
+                "layout_right": 910
+              }
+            ]
+          }
+        ],
+        "images": [],
+        "width": 1080,
+        "height": 1440,
+        "sha256": "a60d80381559f18fef3bf79bed21223f2e5a49b665a94b781a3cb28626ae93db",
+        "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+      }
+    },
+    {
+      "font": "xiangcui",
+      "image": "xiangcui.png",
+      "render": {
+        "blocks": [
+          {
+            "copy_id": "collapse",
+            "text": "崩溃",
+            "font": "xiangcui",
+            "size": 400,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "崩溃",
+                "left": 108.75,
+                "right": 877.5,
+                "top": 156.25,
+                "bottom": 543.75,
+                "layout_left": 90,
+                "layout_right": 890
+              }
+            ]
+          },
+          {
+            "copy_id": "particle",
+            "text": "的",
+            "font": "source-han-sans",
+            "size": 92,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "的",
+                "left": 102,
+                "right": 184,
+                "top": 714,
+                "bottom": 800,
+                "layout_left": 96,
+                "layout_right": 188
+              }
+            ]
+          },
+          {
+            "copy_id": "economy",
+            "text": "古巴经济",
+            "font": "source-han-sans",
+            "size": 205,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "古巴经济",
+                "left": 98,
+                "right": 907,
+                "top": 909,
+                "bottom": 1104,
+                "layout_left": 90,
+                "layout_right": 910
+              }
+            ]
+          }
+        ],
+        "images": [],
+        "width": 1080,
+        "height": 1440,
+        "sha256": "6c0f6ba84417dee50ceb1e5ebbdb3f5151ed097d47ff8b0a07d56ad124d86147",
+        "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+      }
+    },
+    {
+      "font": "smiley",
+      "image": "smiley.png",
+      "render": {
+        "blocks": [
+          {
+            "copy_id": "collapse",
+            "text": "崩溃",
+            "font": "smiley",
+            "size": 400,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "崩溃",
+                "left": 90,
+                "right": 716.25,
+                "top": 143.75,
+                "bottom": 537.5,
+                "layout_left": 90,
+                "layout_right": 730
+              }
+            ]
+          },
+          {
+            "copy_id": "particle",
+            "text": "的",
+            "font": "source-han-sans",
+            "size": 92,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "的",
+                "left": 102,
+                "right": 184,
+                "top": 714,
+                "bottom": 800,
+                "layout_left": 96,
+                "layout_right": 188
+              }
+            ]
+          },
+          {
+            "copy_id": "economy",
+            "text": "古巴经济",
+            "font": "source-han-sans",
+            "size": 205,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "古巴经济",
+                "left": 98,
+                "right": 907,
+                "top": 909,
+                "bottom": 1104,
+                "layout_left": 90,
+                "layout_right": 910
+              }
+            ]
+          }
+        ],
+        "images": [],
+        "width": 1080,
+        "height": 1440,
+        "sha256": "529078574a472af5e239986034b054dbb1e3f2d09f65f18463decbb2e51be7e2",
+        "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+      }
+    },
+    {
+      "font": "unbounded",
+      "image": "unbounded.png",
+      "render": {
+        "blocks": [
+          {
+            "copy_id": "collapse",
+            "text": "崩溃",
+            "font": "unbounded",
+            "size": 400,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "崩溃",
+                "left": 90,
+                "right": 896.25,
+                "top": 181.25,
+                "bottom": 512.5,
+                "layout_left": 90,
+                "layout_right": 896.25
+              }
+            ]
+          },
+          {
+            "copy_id": "particle",
+            "text": "的",
+            "font": "source-han-sans",
+            "size": 92,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "的",
+                "left": 102,
+                "right": 184,
+                "top": 714,
+                "bottom": 800,
+                "layout_left": 96,
+                "layout_right": 188
+              }
+            ]
+          },
+          {
+            "copy_id": "economy",
+            "text": "古巴经济",
+            "font": "source-han-sans",
+            "size": 205,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "古巴经济",
+                "left": 98,
+                "right": 907,
+                "top": 909,
+                "bottom": 1104,
+                "layout_left": 90,
+                "layout_right": 910
+              }
+            ]
+          }
+        ],
+        "images": [],
+        "width": 1080,
+        "height": 1440,
+        "sha256": "81a86e377af43e6d5bf47f543783126415b44edd55fbeb6676900630d692095d",
+        "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+      }
+    }
+  ],
+  "visual_review": "pending; inspect full layout and target viewing size"
+}

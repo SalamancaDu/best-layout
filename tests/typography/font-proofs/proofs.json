@@ -1,0 +1,221 @@
+{
+  "purpose": "internal font comparison; not a final artwork selection",
+  "copy_ids": [
+    "title"
+  ],
+  "candidates": [
+    {
+      "font": "source-han-serif",
+      "image": "source-han-serif.png",
+      "render": {
+        "blocks": [
+          {
+            "copy_id": "title",
+            "text": "古巴经济",
+            "font": "source-han-serif",
+            "size": 222,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "古巴",
+                "left": 534,
+                "right": 968,
+                "top": 83,
+                "bottom": 294,
+                "layout_left": 526,
+                "layout_right": 976
+              },
+              {
+                "text": "经济",
+                "left": 529,
+                "right": 971,
+                "top": 319,
+                "bottom": 532,
+                "layout_left": 526,
+                "layout_right": 976
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "path": "artwork.png",
+            "original": [
+              1086,
+              1448
+            ],
+            "fit": "cover"
+          }
+        ],
+        "width": 1080,
+        "height": 1440,
+        "sha256": "2b287958e11b431880150058ad59a23a0a33608cb52a42dc271e2cc15b447dba",
+        "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+      }
+    },
+    {
+      "font": "xiangcui",
+      "image": "xiangcui.png",
+      "render": {
+        "blocks": [
+          {
+            "copy_id": "title",
+            "text": "古巴经济",
+            "font": "xiangcui",
+            "size": 222,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "古巴",
+                "left": 539,
+                "right": 961,
+                "top": 83,
+                "bottom": 295,
+                "layout_left": 526,
+                "layout_right": 976
+              },
+              {
+                "text": "经济",
+                "left": 535,
+                "right": 965,
+                "top": 318,
+                "bottom": 533,
+                "layout_left": 526,
+                "layout_right": 976
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "path": "artwork.png",
+            "original": [
+              1086,
+              1448
+            ],
+            "fit": "cover"
+          }
+        ],
+        "width": 1080,
+        "height": 1440,
+        "sha256": "bbb2be9c6554bcb1472cf8ddf632c96f93b3548f72bda787e13f688f6b4e30a3",
+        "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+      }
+    },
+    {
+      "font": "wdxl",
+      "image": "wdxl.png",
+      "render": {
+        "blocks": [
+          {
+            "copy_id": "title",
+            "text": "古巴经济",
+            "font": "wdxl",
+            "size": 222,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "古巴",
+                "left": 536,
+                "right": 858.8300170898438,
+                "top": 92,
+                "bottom": 296,
+                "layout_left": 526,
+                "layout_right": 871.6600036621094
+              },
+              {
+                "text": "经济",
+                "left": 536,
+                "right": 858.8300170898438,
+                "top": 329,
+                "bottom": 533,
+                "layout_left": 526,
+                "layout_right": 871.6600036621094
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "path": "artwork.png",
+            "original": [
+              1086,
+              1448
+            ],
+            "fit": "cover"
+          }
+        ],
+        "width": 1080,
+        "height": 1440,
+        "sha256": "c249f7bda2b6c33b3c9d7acdb6355fdbaf5ad0ca2e6632fb5aa472b3ad6712af",
+        "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+      }
+    },
+    {
+      "font": "unbounded",
+      "image": "unbounded.png",
+      "render": {
+        "blocks": [
+          {
+            "copy_id": "title",
+            "text": "古巴经济",
+            "font": "unbounded",
+            "size": 222,
+            "transform": {
+              "scale_x": 1,
+              "scale_y": 1,
+              "skew_x": 0
+            },
+            "lines": [
+              {
+                "text": "古巴",
+                "left": 529,
+                "right": 965,
+                "top": 104,
+                "bottom": 272,
+                "layout_left": 526,
+                "layout_right": 976
+              },
+              {
+                "text": "经济",
+                "left": 526,
+                "right": 977,
+                "top": 336,
+                "bottom": 514,
+                "layout_left": 526,
+                "layout_right": 981
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "path": "artwork.png",
+            "original": [
+              1086,
+              1448
+            ],
+            "fit": "cover"
+          }
+        ],
+        "width": 1080,
+        "height": 1440,
+        "sha256": "c9b346cfc871cd7b1d18b213d500fe5d65f0f327b62bb521050d29c8b7709d40",
+        "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+      }
+    }
+  ],
+  "visual_review": "pending; inspect full layout and target viewing size"
+}

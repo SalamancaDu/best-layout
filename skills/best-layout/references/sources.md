@@ -4,6 +4,8 @@
 
 **证据范围**：书籍公开介绍和目录只能证明主题与范围，不能证明已经读过书中案例或得到作者对本 Skill 的认可。未取得完整正文的书籍不标为全文阅读；设计史不作为生成图片的必要前置流程。
 
+本次版式目录增补于 2026-11-19，远程项目部分只记录公开仓库页面、分类图鉴、导入脚本、验证脚本、发布清单和许可证。没有复制其图片、缩略图或整段说明。
+
 ## 日本设计参考
 
 | 书籍与来源 | 已查阅范围 | 在本 Skill 中的用途 |
@@ -22,6 +24,12 @@
 | Emil Ruder，《Typography. A Manual of Design》，Niggli，1967，ISBN 978-3-7212-0043-0；[出版社页面](https://niggli.ch/en/products/typographie) | 官方介绍与书目信息；未读完整书籍 | 文字结构、可读性、节奏与比例的共同检查。 |
 | Armin Hofmann，《Graphic Design Manual》，Niggli；[出版社页面](https://niggli.ch/en/products/methodik-der-form-und-bildgestaltung) | 官方介绍与书目信息；未读完整书籍；页面描述原作出版于 1965 年及后续版本 | 对比、形式、节奏与构成的整体关系，不把“减少元素”误解为取消表达。 |
 
+## 版式分类与开源维护参考
+
+| 项目与来源 | 已查阅范围 | 在本 Skill 中的用途与边界 |
+|---|---|---|
+| [nevertoday/350-layout-compositions](https://github.com/nevertoday/350-layout-compositions) | 项目首页、分类图鉴、[字体／网格／东亚文字画廊](https://github.com/nevertoday/350-layout-compositions/blob/main/docs/350/04-type-grid-cjk.md)、[导入脚本](https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/scripts/import-350.py)、[验证脚本](https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/scripts/verify-collection.py)、[发布清单](https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/RELEASE.md)和 [LICENSE](https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/LICENSE) | 借鉴分类、稳定 ID、样例目录、缩略图与原图分层、哈希验证和发布检查。远程图片按 CC BY 4.0 单独处理，不进入本项目 MIT/OFL 技能包。 |
+
 ## 排版技术资料
 
 - [W3C 中文排版需求 CLReq](https://www.w3.org/TR/clreq/)：已查阅行首行尾禁则及 6.1.2.1、6.1.2.2 的符号分离规则，用于省略号／破折号成组、数字前后缀与单位的换行修复；未逐节穷尽审读，也不宣称脚本实现了完整 CLReq。
@@ -35,3 +43,5 @@
 五大要素、八种手法、具体情境的结构选择及检查方法是本项目组织知识的方式，不宣称它们是唯一的行业分类，也不将本项目规则伪装为书中逐字结论。构图参考中的音乐会、手机活动指南与品牌文字展决策示例来自本项目的原创实测及修正，不冒充这些书中的案例。
 
 正常制图不把来源、作者、流派名或研究说明写进画面。用户明确要求研究或解释时再提供出处。图片参考只提取结构和关系；不复制完整书页、图版、现成作品或未获授权的字体文件。
+
+版式模式目录中的方法名称是本项目为执行任务建立的标签。远程项目是分类与维护方式的参考，不是本 Skill 的唯一设计史来源。

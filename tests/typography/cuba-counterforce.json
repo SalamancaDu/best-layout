@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#EFE9DC"
+  },
+  "copy": {
+    "gu": "古",
+    "ba": "巴",
+    "jing": "经",
+    "ji": "济"
+  },
+  "graphics": [
+    {
+      "type": "image",
+      "path": "artwork.png",
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1440,
+      "fit": "cover"
+    }
+  ],
+  "blocks": [
+    {
+      "copy_id": "gu",
+      "font": "source-han-serif",
+      "x": 564,
+      "y": 0,
+      "width": 260,
+      "height": 282,
+      "size": 280,
+      "color": "#293A32",
+      "transform": {
+        "scale_x": 0.9,
+        "scale_y": 0.9
+      }
+    },
+    {
+      "copy_id": "ba",
+      "font": "source-han-serif",
+      "x": 822,
+      "y": 48,
+      "width": 210,
+      "height": 246,
+      "size": 210,
+      "color": "#293A32",
+      "transform": {
+        "scale_x": 0.9,
+        "scale_y": 1.05
+      }
+    },
+    {
+      "copy_id": "jing",
+      "font": "source-han-serif",
+      "x": 544,
+      "y": 271,
+      "width": 215,
+      "height": 282,
+      "size": 250,
+      "color": "#293A32",
+      "transform": {
+        "scale_x": 0.82,
+        "scale_y": 1.0
+      }
+    },
+    {
+      "copy_id": "ji",
+      "font": "source-han-serif",
+      "x": 770,
+      "y": 258,
+      "width": 262,
+      "height": 303,
+      "size": 262,
+      "color": "#293A32",
+      "transform": {
+        "scale_x": 0.95,
+        "scale_y": 1.03
+      }
+    }
+  ]
+}

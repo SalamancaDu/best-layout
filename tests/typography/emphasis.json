@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#F4F0E8"
+  },
+  "copy": {
+    "lead": "把",
+    "focus": "重点",
+    "tail": "留给内容",
+    "detail": "城市观察｜2026.10.18"
+  },
+  "graphics": [
+    {
+      "type": "rect",
+      "x": 96,
+      "y": 1140,
+      "width": 888,
+      "height": 3,
+      "color": "#293A32"
+    }
+  ],
+  "blocks": [
+    {
+      "copy_id": "lead",
+      "font": "source-han-sans",
+      "x": 96,
+      "y": 160,
+      "width": 180,
+      "height": 125,
+      "size": 90,
+      "color": "#293A32"
+    },
+    {
+      "copy_id": "focus",
+      "font": "unbounded",
+      "x": 88,
+      "y": 335,
+      "width": 890,
+      "height": 330,
+      "size": 286,
+      "color": "#B6402A"
+    },
+    {
+      "copy_id": "tail",
+      "font": "xiangcui",
+      "x": 96,
+      "y": 725,
+      "width": 888,
+      "height": 170,
+      "size": 120,
+      "color": "#293A32"
+    },
+    {
+      "copy_id": "detail",
+      "font": "source-han-sans",
+      "x": 96,
+      "y": 1220,
+      "width": 888,
+      "height": 65,
+      "size": 38,
+      "color": "#293A32"
+    }
+  ]
+}

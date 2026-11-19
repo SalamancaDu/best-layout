@@ -1,0 +1,106 @@
+{
+  "blocks": [
+    {
+      "copy_id": "gu",
+      "text": "古",
+      "font": "source-han-serif",
+      "size": 280,
+      "transform": {
+        "scale_x": 0.9,
+        "scale_y": 0.9,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "古",
+          "left": 571.875,
+          "right": 812.0625,
+          "top": 35.4375,
+          "bottom": 275.625,
+          "layout_left": 564,
+          "layout_right": 816
+        }
+      ]
+    },
+    {
+      "copy_id": "ba",
+      "text": "巴",
+      "font": "source-han-serif",
+      "size": 210,
+      "transform": {
+        "scale_x": 0.9,
+        "scale_y": 1.05,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "巴",
+          "left": 841.8,
+          "right": 1006.5,
+          "top": 85.79999999999998,
+          "bottom": 282.15,
+          "layout_left": 822,
+          "layout_right": 1011
+        }
+      ]
+    },
+    {
+      "copy_id": "jing",
+      "text": "经",
+      "font": "source-han-serif",
+      "size": 250,
+      "transform": {
+        "scale_x": 0.82,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "经",
+          "left": 546.46,
+          "right": 746.54,
+          "top": 309,
+          "bottom": 539,
+          "layout_left": 544,
+          "layout_right": 749
+        }
+      ]
+    },
+    {
+      "copy_id": "ji",
+      "text": "济",
+      "font": "source-han-serif",
+      "size": 262,
+      "transform": {
+        "scale_x": 0.95,
+        "scale_y": 1.03,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "济",
+          "left": 773.8890625,
+          "right": 1018.9,
+          "top": 295.94906249999997,
+          "bottom": 557.3759375,
+          "layout_left": 770,
+          "layout_right": 1018.9
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "artwork.png",
+      "original": [
+        1086,
+        1448
+      ],
+      "fit": "cover"
+    }
+  ],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "eb701dbed71da47bc019539b389a5c381765fa17f16ebf7d93e2cc111b23e58c",
+  "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+}

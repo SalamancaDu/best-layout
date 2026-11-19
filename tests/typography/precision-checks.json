@@ -1,0 +1,207 @@
+{
+  "blocks": [
+    {
+      "copy_id": "title",
+      "text": "城市观察",
+      "font": "source-han-sans",
+      "size": 146,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "城市观察",
+          "left": 83,
+          "right": 662,
+          "top": 112,
+          "bottom": 252,
+          "layout_left": 80,
+          "layout_right": 664
+        }
+      ]
+    },
+    {
+      "copy_id": "subtitle",
+      "text": "空间与秩序",
+      "font": "wdxl",
+      "size": 64,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "空间与秩序",
+          "left": 85,
+          "right": 325.8399658203125,
+          "top": 314,
+          "bottom": 374,
+          "layout_left": 83,
+          "layout_right": 327.7999572753906
+        }
+      ]
+    },
+    {
+      "copy_id": "date",
+      "text": "2026.10.18",
+      "font": "wdxl",
+      "size": 50,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "2026.10.18",
+          "left": 82,
+          "right": 275.49993896484375,
+          "top": 1274,
+          "bottom": 1311,
+          "layout_left": 80,
+          "layout_right": 276.94993591308594
+        }
+      ]
+    },
+    {
+      "copy_id": "row1",
+      "text": "01  比例",
+      "font": "wdxl",
+      "size": 58,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "01  比例",
+          "left": 82,
+          "right": 232.0259552001953,
+          "top": 530,
+          "bottom": 584,
+          "layout_left": 80,
+          "layout_right": 234.3959503173828
+        }
+      ]
+    },
+    {
+      "copy_id": "desc1",
+      "text": "由尺度建立关系",
+      "font": "source-han-sans",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "由尺度建立关系",
+          "left": 433,
+          "right": 736,
+          "top": 534,
+          "bottom": 577,
+          "layout_left": 430,
+          "layout_right": 738
+        }
+      ]
+    },
+    {
+      "copy_id": "row2",
+      "text": "02  间距",
+      "font": "wdxl",
+      "size": 58,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "02  间距",
+          "left": 82,
+          "right": 246.17794799804688,
+          "top": 750,
+          "bottom": 804,
+          "layout_left": 80,
+          "layout_right": 248.54794311523438
+        }
+      ]
+    },
+    {
+      "copy_id": "desc2",
+      "text": "在分组之间停顿",
+      "font": "source-han-sans",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "在分组之间停顿",
+          "left": 430,
+          "right": 738,
+          "top": 754,
+          "bottom": 797,
+          "layout_left": 430,
+          "layout_right": 738
+        }
+      ]
+    },
+    {
+      "copy_id": "row3",
+      "text": "03  方向",
+      "font": "wdxl",
+      "size": 58,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "03  方向",
+          "left": 82,
+          "right": 245.5979461669922,
+          "top": 970,
+          "bottom": 1024,
+          "layout_left": 80,
+          "layout_right": 247.9679412841797
+        }
+      ]
+    },
+    {
+      "copy_id": "desc3",
+      "text": "让视线找到路径",
+      "font": "source-han-sans",
+      "size": 44,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "让视线找到路径",
+          "left": 431,
+          "right": 738,
+          "top": 974,
+          "bottom": 1016,
+          "layout_left": 430,
+          "layout_right": 738
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "35834b1aedec0364686f53a63774aa8b1671bca4cd9a94c79f4c39f887309747",
+  "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+}

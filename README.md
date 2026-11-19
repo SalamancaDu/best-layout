@@ -1,10 +1,10 @@
 # best-layout
 
-把正式内容排成清楚、有秩序的图片。默认结合日式编辑设计的精细文字与留白，以及瑞士设计的网格、层级和对齐。
+以文字排版和标题设计为核心，把正式内容排成清楚、有表达力的图片。默认结合日式编辑设计的精细文字与留白，以及瑞士设计的网格、层级和对齐；先完成选字、字形与阅读关系，再组织必要配图。
 
 适用于海报、封面、社媒图文、信息图和单页演示。成功制图时只展示最终位图，画面保留正式文案，不混入设计说明、参数或提示词；不生成 SVG 或 HTML 预览页。
 
-[下载 v0.1.0](https://github.com/SalamancaDu/best-layout/releases/tag/v0.1.0) · [快速开始](#快速开始) · [使用示例](#使用示例) · [字体与排字参考](skills/best-layout/references/local-typesetting.md)
+[下载 v0.1.0](https://github.com/SalamancaDu/best-layout/releases/tag/v0.1.0) · [快速开始](#快速开始) · [使用示例](#使用示例) · [按任务查找版式](#按任务查找版式) · [字体与排字参考](skills/best-layout/references/local-typesetting.md)
 
 ## 实际效果
 
@@ -16,6 +16,19 @@
 | 大标题与时间、地点分层 | 宋体表达与空间关系 | 20 项正式文案的分组与阅读顺序 |
 
 这些示例展示不同的内容组织方式，不是每次调用都会套用的固定模板。可查看[更多样图与排字配置](tests/typesetting/)及[10 款字体检查页](tests/typesetting/selected-fonts.png)。
+
+## 按任务查找版式
+
+版式目录把内容任务、文字关系和当前执行能力分开记录。它借鉴公开版式图鉴的分类方式，目录中的图片样例全部来自本仓库自己的排字测试。
+
+| 任务入口 | 版式重点 | 实际样例 |
+| --- | --- | --- |
+| 留白与单焦点海报 | 负空间、共同轴线、图片窗口 | [光的形状](tests/typesetting/light-poster.png) |
+| 编辑式封面与图文并置 | 跨栏标题、非对称、视觉层级 | [夜行音乐会](tests/typesetting/concert.png) |
+| 高密度信息页面 | 模块分组、栏网、阅读路径 | [周末旧物修理站](tests/typesetting/dense.png) |
+| 标题字形与中文混排 | 字形比例、基线、保护性换行 | [文字设计标题](tests/typography/text-first/title-designed.png) · [换行用例](tests/typesetting/line-breaks.png) |
+
+机器可读目录见 [版式模式目录](skills/best-layout/references/layout-patterns.json) 和 [实际样例目录](examples/layout-catalog.json)。每条样例都能追溯到 PNG、排字配置和检查报告。目录中的 `reference` 只表示方法参考，不表示当前程序已经自动实现。
 
 ## 快速开始
 
@@ -170,19 +183,33 @@ python -X utf8 tests/inspect_images.py tests/outputs/repair-guide.png --width 39
 
 ## 维护与本地打包
 
+本地维护版为 **v0.2.0**（2026-11-19），在 v0.1.2 的文字设计修正基础上增加版式模式目录、实际样例索引和可重复验证：
+
+- 明确的文字表现请求先完成无配图的标题设计，按真实文案比较字体骨架，设计比例、方向、字距和空间关系，再组织图片；不默认选择思源宋体，也不以加粗或背景气氛替代文字设计。
+- 提供[字体试排工具](skills/best-layout/references/local-typesetting.md#字体试排)与[局部墨迹缺损工具](skills/best-layout/references/local-typesetting.md#局部墨迹缺损)，复用现有排字环境，不修改字体原件或增加运行依赖。
+- 根据反馈修改对应的字体、字形或图文关系，通过原形与处理稿检查实际改善；[标题、修改反馈实测](tests/typography/README.md)区分程序验证、视觉自审与尚未取得的用户验收。
+- 提供[版式模式目录](skills/best-layout/references/layout-patterns.json)和[实际样例目录](examples/layout-catalog.json)，样例记录 PNG、配置、报告、尺寸和哈希，支持状态明确区分。
+- 增加[版式目录验证](scripts/verify_layout_catalog.py)、[贡献说明](CONTRIBUTING.md)和[发布清单](RELEASE.md)，用于检查样例对应关系、README 链接和发布前边界。
+
+版本号统一维护在 `skills/best-layout/SKILL.md` 的 `metadata.version`，打包脚本从中读取。公开 Release 链接仍指向已发布的 v0.1.0；本地维护版未上传，旧版本包保留。
+
 ```sh
 python scripts/build_release.py
 ```
 
-输出 `dist/best-layout-v0.1.0.zip` 及同名 `.zip.sha256`，需要重建已有包时加 `--force`。脚本只在本地打包，不上传、安装、提交或发布。解压后得到完整的 `best-layout/`，可复制到宿主支持的 Skill 目录，或直接引用其中的 `SKILL.md`。环境准备及命令见包内 `references/local-typesetting.md`；`assets/examples/poster.json` 可用于首次运行。
+按技能版本输出 `dist/best-layout-v0.2.0.zip` 及同名 `.zip.sha256`，需要重建已有包时加 `--force`。脚本只在本地打包，不上传、安装、提交或发布。解压后得到完整的 `best-layout/`，可复制到宿主支持的 Skill 目录，或直接引用其中的 `SKILL.md`。环境准备及命令见包内 `references/local-typesetting.md`；`assets/examples/poster.json` 可用于首次运行。
 
-包内只有技能入口、Codex 配置、参考文档、排字脚本、最小示例、10 款原始字体及许可证。打包时核对许可、字体哈希和内部链接，未列入清单的字体会阻止打包。未携带 Python、Playwright、浏览器、研究下载、历史样图或测试缓存，首次使用仍需具备运行环境。公开源码时不要手工加入已忽略的 `tests/font-specimens/`；其中保留了历史候选与未确认授权的研究原件。
+包内只有技能入口、Codex 配置、参考文档、版式模式目录、排字脚本、最小示例、10 款原始字体及许可证。打包时核对许可、字体哈希和内部链接，未列入清单的字体会阻止打包。未携带 Python、Playwright、浏览器、研究下载、历史样图或测试缓存，首次使用仍需具备运行环境。公开源码时不要手工加入已忽略的 `tests/font-specimens/`；其中保留了历史候选与未确认授权的研究原件。
 
 维护检查复用本机已有的 Pillow、Playwright 与 Chromium；测试依赖未随技能打包：
 
 ```sh
 python -X utf8 tests/test_typesetting.py
+python -X utf8 tests/test_font_proofs.py
+python -X utf8 tests/test_ink_cuts.py
+python -X utf8 tests/test_layout_catalog.py
 python -X utf8 tests/test_release.py
+python -X utf8 scripts/verify_layout_catalog.py
 ```
 
 若没有默认浏览器，先将 `BEST_LAYOUT_CHROMIUM` 设为已安装的 Chromium 可执行文件。当前实测范围是 Windows，本地解压运行不等于干净机器安装或跨平台验收。

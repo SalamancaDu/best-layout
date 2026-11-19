@@ -1,0 +1,152 @@
+{
+  "width": 1080,
+  "height": 1440,
+  "changed_alpha_pixels": 3554,
+  "retained_alpha_fraction": 0.9864514163160348,
+  "source_sha256": "9af76ee91705c2638daa36cc658861ce27c8cbbdd9f4957b4c1f61dc56b0b0c6",
+  "sha256": "bd18f4760e88919bc177a2924a93c5148ce20a24626fb1e91f69f7be82a80d64",
+  "blocks": [
+    {
+      "copy_id": "beng",
+      "text": "崩",
+      "font": "source-han-sans",
+      "size": 400,
+      "transform": {
+        "scale_x": 0.91,
+        "scale_y": 1.35,
+        "skew_x": 8
+      },
+      "lines": [
+        {
+          "text": "崩",
+          "left": 70,
+          "right": 473.39542415368857,
+          "top": 145.93749999999994,
+          "bottom": 669.0625,
+          "layout_left": 70,
+          "layout_right": 473.39542415368857
+        }
+      ]
+    },
+    {
+      "copy_id": "kui",
+      "text": "溃",
+      "font": "source-han-sans",
+      "size": 390,
+      "transform": {
+        "scale_x": 0.87,
+        "scale_y": 1.32,
+        "skew_x": -9
+      },
+      "lines": [
+        {
+          "text": "溃",
+          "left": 551,
+          "right": 945.5340405116292,
+          "top": 240.43750000000006,
+          "bottom": 723.0625000000001,
+          "layout_left": 551,
+          "layout_right": 948.4931364604664
+        }
+      ]
+    },
+    {
+      "copy_id": "particle",
+      "text": "的",
+      "font": "source-han-sans",
+      "size": 84,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "的",
+          "left": 97,
+          "right": 173,
+          "top": 943,
+          "bottom": 1023,
+          "layout_left": 92,
+          "layout_right": 176
+        }
+      ]
+    },
+    {
+      "copy_id": "economy",
+      "text": "古巴经济",
+      "font": "source-han-sans",
+      "size": 180,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "古巴经济",
+          "left": 217,
+          "right": 928,
+          "top": 861,
+          "bottom": 1031,
+          "layout_left": 210,
+          "layout_right": 930
+        }
+      ]
+    }
+  ],
+  "cuts": [
+    [
+      [
+        90,
+        423
+      ],
+      [
+        320,
+        440
+      ],
+      [
+        360,
+        430
+      ],
+      [
+        580,
+        485
+      ],
+      [
+        740,
+        497
+      ],
+      [
+        970,
+        540
+      ],
+      [
+        970,
+        548
+      ],
+      [
+        740,
+        505
+      ],
+      [
+        580,
+        494
+      ],
+      [
+        360,
+        439
+      ],
+      [
+        320,
+        448
+      ],
+      [
+        90,
+        431
+      ]
+    ]
+  ],
+  "background": "#EEE5D3",
+  "visual_review": "pending; source copy is recorded, altered glyphs need visual inspection"
+}

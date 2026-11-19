@@ -2,6 +2,19 @@
 
 用于新构图、信息密度调整、画幅适配和系列设计。把瑞士的信息结构与日式的空间、文字和情绪表达放在同一个版面中处理，不要求用户先选择流派。
 
+## 版式模式索引
+
+需要按任务选择结构时读取 [版式模式目录](layout-patterns.json)。目录是按内容选择关系的索引，不是固定模板清单；先根据文案密度、阅读顺序和画幅筛选，再检查具体字形与图片角色。
+
+| 任务 | 优先查看的模式 | 使用时检查 |
+|---|---|---|
+| 留白海报、单焦点封面 | `composition-negative-space`、`composition-axis`、`principles-figure-ground` | 主信息是否获得停顿，辅助信息是否仍可读 |
+| 编辑式封面、表现型标题 | `composition-asymmetric`、`editorial-cross-title`、`type-asymmetric` | 非对称是否由共同轴线和视觉重量维持 |
+| 活动指南、信息密集页 | `editorial-modular-page`、`principles-grouping`、`type-column` | 行长、分组和实际观看尺寸是否成立 |
+| 中文与中西文混排 | `type-baseline`、`type-indent-wrap`、`type-cjk-mixed` | 基线、标点、数字单位和词组是否保持可辨认 |
+
+模式目录中的 `reference` 项可以帮助解释设计方向，但不能写成当前排字程序已经支持的功能。
+
 ## 从阅读任务建立网格
 
 先找主信息、内容分组、图像角色和观看距离，再确定可用版面。网格是内容之间的关系，不是需要画出来的背景。

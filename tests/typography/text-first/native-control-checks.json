@@ -1,0 +1,97 @@
+{
+  "blocks": [
+    {
+      "copy_id": "beng",
+      "text": "崩",
+      "font": "source-han-sans",
+      "size": 400,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "崩",
+          "left": 76.25,
+          "right": 438.75,
+          "top": 126.25,
+          "bottom": 513.75,
+          "layout_left": 70,
+          "layout_right": 470
+        }
+      ]
+    },
+    {
+      "copy_id": "kui",
+      "text": "溃",
+      "font": "source-han-sans",
+      "size": 390,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "溃",
+          "left": 563.1875,
+          "right": 928.8125,
+          "top": 220.9375,
+          "bottom": 586.5625,
+          "layout_left": 551,
+          "layout_right": 941
+        }
+      ]
+    },
+    {
+      "copy_id": "particle",
+      "text": "的",
+      "font": "source-han-sans",
+      "size": 84,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "的",
+          "left": 97,
+          "right": 173,
+          "top": 943,
+          "bottom": 1023,
+          "layout_left": 92,
+          "layout_right": 176
+        }
+      ]
+    },
+    {
+      "copy_id": "economy",
+      "text": "古巴经济",
+      "font": "source-han-sans",
+      "size": 180,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "古巴经济",
+          "left": 217,
+          "right": 928,
+          "top": 861,
+          "bottom": 1031,
+          "layout_left": 210,
+          "layout_right": 930
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "2f6a5fba11a71262cc2d9c958c21dd8c151472d4b8b304669cbc3e03b7841f93",
+  "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+}

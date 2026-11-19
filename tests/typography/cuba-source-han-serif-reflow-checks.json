@@ -1,0 +1,62 @@
+{
+  "blocks": [
+    {
+      "copy_id": "country",
+      "text": "古巴",
+      "font": "source-han-serif",
+      "size": 230,
+      "transform": {
+        "scale_x": 1.07,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "古巴",
+          "left": 510.56,
+          "right": 986.71,
+          "top": 33,
+          "bottom": 252,
+          "layout_left": 502,
+          "layout_right": 989.9200000000001
+        }
+      ]
+    },
+    {
+      "copy_id": "economy",
+      "text": "经济",
+      "font": "source-han-serif",
+      "size": 235,
+      "transform": {
+        "scale_x": 0.87,
+        "scale_y": 1.15,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "经济",
+          "left": 609.61,
+          "right": 1008.94,
+          "top": 276.8,
+          "bottom": 536.7,
+          "layout_left": 607,
+          "layout_right": 1008.94
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "artwork.png",
+      "original": [
+        1086,
+        1448
+      ],
+      "fit": "cover"
+    }
+  ],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "3ce4c472ef8f2016c503ee22dea422314e10133998070fb8060711eb0697dba9",
+  "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+}

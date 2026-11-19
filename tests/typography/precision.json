@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#F4F0E8"
+  },
+  "copy": {
+    "title": "城市观察",
+    "subtitle": "空间与秩序",
+    "row1": "01  比例",
+    "desc1": "由尺度建立关系",
+    "row2": "02  间距",
+    "desc2": "在分组之间停顿",
+    "row3": "03  方向",
+    "desc3": "让视线找到路径",
+    "date": "2026.10.18"
+  },
+  "graphics": [
+    {
+      "type": "rect",
+      "x": 80,
+      "y": 482,
+      "width": 920,
+      "height": 2,
+      "color": "#367565"
+    },
+    {
+      "type": "rect",
+      "x": 80,
+      "y": 702,
+      "width": 920,
+      "height": 2,
+      "color": "#367565"
+    },
+    {
+      "type": "rect",
+      "x": 80,
+      "y": 922,
+      "width": 920,
+      "height": 2,
+      "color": "#367565"
+    }
+  ],
+  "blocks": [
+    {
+      "copy_id": "title",
+      "font": "source-han-sans",
+      "x": 80,
+      "y": 92,
+      "width": 920,
+      "height": 180,
+      "size": 146,
+      "color": "#293A32"
+    },
+    {
+      "copy_id": "subtitle",
+      "font": "wdxl",
+      "x": 83,
+      "y": 303,
+      "width": 914,
+      "height": 84,
+      "size": 64,
+      "color": "#367565"
+    },
+    {
+      "copy_id": "date",
+      "font": "wdxl",
+      "x": 80,
+      "y": 1260,
+      "width": 920,
+      "height": 70,
+      "size": 50,
+      "color": "#293A32"
+    },
+    {
+      "copy_id": "row1",
+      "font": "wdxl",
+      "x": 80,
+      "y": 520,
+      "width": 300,
+      "height": 85,
+      "size": 58,
+      "color": "#367565"
+    },
+    {
+      "copy_id": "desc1",
+      "font": "source-han-sans",
+      "x": 430,
+      "y": 528,
+      "width": 570,
+      "height": 73,
+      "size": 44,
+      "color": "#293A32"
+    },
+    {
+      "copy_id": "row2",
+      "font": "wdxl",
+      "x": 80,
+      "y": 740,
+      "width": 300,
+      "height": 85,
+      "size": 58,
+      "color": "#367565"
+    },
+    {
+      "copy_id": "desc2",
+      "font": "source-han-sans",
+      "x": 430,
+      "y": 748,
+      "width": 570,
+      "height": 73,
+      "size": 44,
+      "color": "#293A32"
+    },
+    {
+      "copy_id": "row3",
+      "font": "wdxl",
+      "x": 80,
+      "y": 960,
+      "width": 300,
+      "height": 85,
+      "size": 58,
+      "color": "#367565"
+    },
+    {
+      "copy_id": "desc3",
+      "font": "source-han-sans",
+      "x": 430,
+      "y": 968,
+      "width": 570,
+      "height": 73,
+      "size": 44,
+      "color": "#293A32"
+    }
+  ]
+}

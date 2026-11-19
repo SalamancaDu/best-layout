@@ -1,6 +1,6 @@
 """Build a local, self-contained skill ZIP; never upload, install or publish.
 
-Only reviewed runtime files and the v0.1 font allowlist enter the archive.
+Only reviewed runtime files and the reviewed font allowlist enter the archive.
 Uses the Python standard library; no network or additional build dependencies.
 """
 from __future__ import annotations
@@ -20,8 +20,9 @@ APPROVED_FONT_IDS = frozenset({"source-han-sans", "source-han-serif", "wenkai-gb
 RUNTIME_FILES = (
     "SKILL.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "agents/openai.yaml",
     "references/composition.md", "references/typography.md", "references/image-production.md",
-    "references/local-typesetting.md", "references/sources.md", "scripts/compose.py",
-    "scripts/render_canvas.js", "scripts/font_coverage.py", "scripts/requirements.txt",
+    "references/local-typesetting.md", "references/sources.md", "references/layout-patterns.json",
+    "scripts/compose.py",
+    "scripts/render_canvas.js", "scripts/font_coverage.py", "scripts/proof_fonts.py", "scripts/cut_ink.py", "scripts/requirements.txt",
     "assets/fonts/manifest.json", "assets/examples/poster.json",
 )
 
@@ -71,7 +72,7 @@ def release_files():
         raise ValueError("SKILL.md needs an explicit metadata.version")
     fonts = json.loads(files["assets/fonts/manifest.json"].read_text(encoding="utf-8"))["fonts"]
     if len(fonts) != len(APPROVED_FONT_IDS) or {f["id"] for f in fonts} != APPROVED_FONT_IDS:
-        raise ValueError("Font selection differs from the reviewed v0.1 release allowlist")
+        raise ValueError("Font selection differs from the reviewed release allowlist")
     for font in fonts:
         if font["license_id"] != "OFL-1.1":
             raise ValueError(f"Unreviewed font license: {font['id']}")

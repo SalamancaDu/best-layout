@@ -27,20 +27,32 @@ python -m playwright install chromium
 
 原始字库、版权和许可证位于 [assets/fonts](../assets/fonts/)。具体来源、版本和 SHA-256 见 [manifest.json](../assets/fonts/manifest.json)。完整字体包约 103.5 MiB；复制整个技能文件夹即可携带，无需系统安装。字库文件未转换或修改；设计变换仅作用于排印到画布上的文字。
 
-| font ID | 字库 | 注意 |
+| font ID | 字库与形态线索 | 使用取舍 |
 |---|---|---|
-| `source-han-sans` | 思源黑体 CN **Bold** | 标题、导语、强对比信息；不是 Regular |
-| `source-han-serif` | 思源宋体 CN **Heavy** | 展示标题；不作密集正文默认 |
-| `wenkai-gb` | 霞鹜文楷 GB Regular | 人文正文，罕见字另核对 |
-| `unbounded` | 标小智无界黑 | 强视觉标题 |
-| `xiangcui` | 香萃等粗宋 | 标题或合适尺寸的短段落 |
-| `qiji` | 齊伋體 | 古刻本字形；缺少不少标点、英文、数字 |
-| `smiley` | 得意黑 Oblique | 已有原生倾斜，额外斜切时评估叠加效果 |
-| `wdxl` | WD-XL 滑油字 SC Regular | 简体窄体展示字 |
-| `marker` | 霞鹜漫黑 Regular | 手写感展示字 |
-| `fusion-pixel` | 缝合像素字体 12px proportional zh_hans | 原尺寸优先用 12 的整数倍字号，缩小观看另核对 |
+| `source-han-sans` | 思源黑体 CN **Bold**；笔画稳定、信息字形 | 适合明确的信息层级；密笔标题压缩后可能堵塞，不以粗黑代替张力 |
+| `source-han-serif` | 思源宋体 CN **Heavy**；横竖对比、衬线与锋利收笔 | 可承载出版感、主笔方向与尺度对比；粗竖笔压窄后须看字腔，不作密集正文默认 |
+| `wenkai-gb` | 霞鹜文楷 GB Regular；书写笔意、较轻的视觉重量 | 可支持温和的人文阅读；不靠过度变粗承担强压迫，罕见字另核对 |
+| `unbounded` | 标小智无界黑；宽厚字面、大块墨色与紧小字腔 | 可表达敦实与强重量；密笔词易拥堵，未必适合精细、锐利或旧印刷主题 |
+| `xiangcui` | 香萃等粗宋；宋体骨架，较均衡的横竖笔画 | 作为较轻、较细腻的展示候选；需要张力时看主笔与空间关系，不预设天然有冲击力 |
+| `qiji` | 齊伋體；古刻本字形与不规则墨迹 | 可选历史印刷气质；不代表所有地域的历史，且缺不少标点、英文、数字，异体字须视觉核对 |
+| `smiley` | 得意黑 Oblique；原生倾斜、收紧的字面和笔画变化 | 有方向感的短标题候选；不自动等于速度或张力，额外斜切评估叠加效果 |
+| `wdxl` | WD-XL 滑油字 SC Regular；窄长、圆角和管线感 | 可试紧凑信息、窄体展示与技术气质；与旧建筑或传统印刷未必协调 |
+| `marker` | 霞鹜漫黑 Regular；手写感、非机械的笔画节奏 | 可用于亲近、有个人笔触的短标题；精密或庄重表达需比较，长正文另看阅读表现 |
+| `fusion-pixel` | 缝合像素字体 12px proportional zh_hans；明确点阵阶梯 | 可试数字媒介、像素语境；原尺寸优先用 12 的整数倍字号，缩小观看另核对 |
 
 按角色选择少量字体，不把列表当作每图清单。首版携带上述 10 款；Oswald Stencil 因所选文件的分发证据未确认而排除。英文和数字可使用覆盖相应字符的现有字库，WD-XL 适合窄体展示，思源黑体 Bold 适合稳定的信息文字。代码与字体许可证相互独立，分发时保留各目录 OFL 与版权信息，见 [第三方许可说明](../THIRD_PARTY_NOTICES.md)。无需在成图中印版权注释。
+
+## 字体试排
+
+在选择不明确或用户否定当前字体气质时，复用现有布局比较有区别的候选：
+
+```sh
+python "<skill>/scripts/proof_fonts.py" "layout.json" "font-proofs" --copy-id title --fonts source-han-serif xiangcui wdxl
+```
+
+多个标题块用 `--copy-id country economy` 指定。脚本仅替换这些块的字体 ID，文案、字号、字距、变换、分行、图片及其他块全部保留；同样支持 `--channel`／`--chromium`。每个候选得到一张无标签 PNG，另有内部 `proofs.json` 记录实际排字，未选择赢家。需要新的输出目录，不覆盖已有对照。
+
+它用于先隔离字体骨架的影响，相同字号不保证可见字高相同；进入最终比较时由代理根据实际图像调整布局并在相近视觉尺度复核。放不下或缺字就报错，不偷偷缩字；失败后已有 PNG 仅是部分试排，没有完整索引，不算整组完成。实际查看候选后选择、重排或放弃；普通交付仍只有最终图，不展示内部参数和试排清单。
 
 ## 配置
 
@@ -88,6 +100,18 @@ python -m playwright install chromium
 ```
 
 图片路径相对于配置文件，仅接受实际 PNG／JPEG／WebP。默认 `contain` 等比完整放入；`cover` 等比填满裁切。`position` 为 0～1 的横纵位置，默认居中。先检查素材，脚本不识别图片自带的字。
+
+## 局部墨迹缺损
+
+标题需要有意的断裂或失墨时，先用 `compose.py` 在 `transparent` 背景排出真实字形，并用 `--report title-checks.json` 保存源图哈希和正式文案。设计多边形蒙版，只覆盖要损伤的笔画；坐标以实际 PNG 为准，不套用统一裂纹位置。再运行：
+
+```sh
+python "<skill>/scripts/cut_ink.py" "ink-cuts.json" "title-styled.png" --report "title-styled-checks.json"
+```
+
+`ink-cuts.json` 包含 `layer`（源透明 PNG）、`source_report`（对应的排字报告）及 `cuts`（多边形列表，每个多边形为 `[x,y]` 点数组）。路径相对此 JSON。可选 `background` 为 `transparent` 或不透明 `#RRGGBB`，用于透明标题资产或纯文字检视；同样支持 `--channel`／`--chromium`。它不会修改字库、重画文字、下载素材或自动加纹理，不覆盖已有输出。
+
+脚本核对源 PNG 与报告的 SHA-256，只从透明文字层减去指定墨迹；无效或完全删光墨迹的蒙版会失败。报告保留原文、字体、实际变换和源图关系，另记损伤像素及保留墨量。这些指标不证明改后字形正确：必须对照原图，逐字确认必要部件、负空间与目标显示尺寸的可读性。破坏语义或显得机械时重做蒙版或撤回，不以“有裂纹”认定破败表达完成。整句的排版与字形先成立，材料损耗只承担需要的那一层表达。
 
 ## 失败与检查
 

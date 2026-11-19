@@ -48,8 +48,12 @@ class ReleaseTests(unittest.TestCase):
                 for field, digest in (("path", "sha256"), ("license", "license_sha256")):
                     data = bundle.read("best-layout/assets/fonts/" + font[field])
                     self.assertEqual(hashlib.sha256(data).hexdigest(), font[digest])
-            for relative in ("SKILL.md", "THIRD_PARTY_NOTICES.md", "agents/openai.yaml", "assets/examples/poster.json"):
+            for relative in ("SKILL.md", "THIRD_PARTY_NOTICES.md", "agents/openai.yaml",
+                             "assets/examples/poster.json", "references/layout-patterns.json"):
                 self.assertIn("best-layout/" + relative, names)
+            patterns = json.loads(bundle.read("best-layout/references/layout-patterns.json"))
+            self.assertEqual(patterns["schema_version"], 1)
+            self.assertGreaterEqual(len(patterns["patterns"]), 24)
         expected = hashlib.sha256(self.archive.read_bytes()).hexdigest()
         self.assertEqual(self.checksum.read_text(encoding="utf-8").split()[0], expected)
 
@@ -113,6 +117,55 @@ class ReleaseTests(unittest.TestCase):
         with self.assertRaises(FileExistsError):
             build(self.archive.parent)
         self.assertEqual(self.archive.read_bytes(), before)
+
+    def test_extracted_font_proofs_are_self_contained(self):
+        cwd = self.folder / "font-proof-cwd"
+        cwd.mkdir()
+        output = cwd / "proofs"
+        command = [sys.executable, "-X", "utf8", str(self.skill / "scripts/proof_fonts.py"),
+                   str(self.skill / "assets/examples/poster.json"), str(output),
+                   "--copy-id", "title", "--fonts", "source-han-serif", "xiangcui"]
+        if os.environ.get("BEST_LAYOUT_CHROMIUM"):
+            command += ["--chromium", os.environ["BEST_LAYOUT_CHROMIUM"]]
+        done = subprocess.run(command, cwd=cwd, capture_output=True, timeout=60)
+        self.assertEqual(done.returncode, 0, done.stderr.decode("utf-8", errors="replace"))
+        report = json.loads((output / "proofs.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(report["candidates"]), 2)
+        for row in report["candidates"]:
+            self.assertEqual(row["render"]["blocks"][0]["text"], "山川有光")
+            self.assertTrue((output / row["image"]).is_file())
+
+    def test_extracted_ink_cuts_use_verified_transparent_title(self):
+        cwd = self.folder / "ink-cut-cwd"
+        cwd.mkdir()
+        spec = {"version": 1, "canvas": {"width": 500, "height": 180, "background": "transparent"},
+                "copy": {"title": "山川有光"}, "graphics": [],
+                "blocks": [{"copy_id": "title", "font": "source-han-sans", "x": 20, "y": 20,
+                            "width": 450, "height": 140, "size": 72, "color": "#272823"}]}
+        (cwd / "type.json").write_text(json.dumps(spec, ensure_ascii=False), encoding="utf-8")
+        command = [sys.executable, "-X", "utf8", str(self.skill / "scripts/compose.py"),
+                   str(cwd / "type.json"), str(cwd / "type.png"), "--report", str(cwd / "source.json")]
+        browser = ["--chromium", os.environ["BEST_LAYOUT_CHROMIUM"]] if os.environ.get("BEST_LAYOUT_CHROMIUM") else []
+        done = subprocess.run(command + browser, cwd=cwd, capture_output=True, timeout=60)
+        self.assertEqual(done.returncode, 0, done.stderr.decode("utf-8", errors="replace"))
+        source = json.loads((cwd / "source.json").read_text(encoding="utf-8"))
+        line = source["blocks"][0]["lines"][0]
+        y = (line["top"] + line["bottom"]) / 2
+        cut = {"layer": "type.png", "source_report": "source.json",
+               "cuts": [[[0, y], [500, y], [500, y + 2], [0, y + 2]]]}
+        (cwd / "cuts.json").write_text(json.dumps(cut), encoding="utf-8")
+        styled = cwd / "styled.png"
+        command = [sys.executable, "-X", "utf8", str(self.skill / "scripts/cut_ink.py"),
+                   str(cwd / "cuts.json"), str(styled), "--report", str(cwd / "styled.json")]
+        done = subprocess.run(command + browser, cwd=cwd, capture_output=True, timeout=60)
+        self.assertEqual(done.returncode, 0, done.stderr.decode("utf-8", errors="replace"))
+        report = json.loads((cwd / "styled.json").read_text(encoding="utf-8"))
+        self.assertEqual(report["source_sha256"], source["sha256"])
+        self.assertEqual(report["blocks"][0]["text"], "山川有光")
+        self.assertGreater(report["changed_alpha_pixels"], 0)
+        with Image.open(styled) as image:
+            self.assertEqual(image.size, (500, 180))
+            self.assertIn(0, image.getchannel("A").getextrema())
 
 
 if __name__ == "__main__":

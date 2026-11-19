@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#EFE9DC"
+  },
+  "copy": {
+    "country": "古巴",
+    "economy": "经济"
+  },
+  "graphics": [
+    {
+      "type": "image",
+      "path": "artwork.png",
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1440,
+      "fit": "cover"
+    }
+  ],
+  "blocks": [
+    {
+      "copy_id": "country",
+      "font": "unbounded",
+      "x": 417,
+      "y": 4,
+      "width": 615,
+      "height": 292,
+      "size": 282,
+      "color": "#AF3F25",
+      "letter_spacing": -12,
+      "transform": {
+        "scale_x": 1.05,
+        "scale_y": 1.0,
+        "skew_x": 0
+      }
+    },
+    {
+      "copy_id": "economy",
+      "font": "unbounded",
+      "x": 526,
+      "y": 275,
+      "width": 507,
+      "height": 276,
+      "size": 247,
+      "color": "#293A32",
+      "letter_spacing": -9,
+      "transform": {
+        "scale_x": 0.95,
+        "scale_y": 1.09,
+        "skew_x": 0
+      }
+    }
+  ]
+}

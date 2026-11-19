@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "title": "best-layout 实际样例目录",
+  "purpose": "把仓库内实际 PNG、配置和检查报告绑定起来。样例状态只描述本地验证范围。",
+  "examples": [
+    {
+      "id": "editorial-concert-001",
+      "pattern_ids": ["editorial-cross-title", "principles-hierarchy", "type-asymmetric"],
+      "image": "tests/typesetting/concert.png",
+      "config": "tests/typesetting/concert.json",
+      "report": "tests/typesetting/concert-checks.json",
+      "review_status": "visual_checked",
+      "review_scope": "local_self_review"
+    },
+    {
+      "id": "negative-space-light-001",
+      "pattern_ids": ["composition-negative-space", "composition-axis", "editorial-image-window"],
+      "image": "tests/typesetting/light-poster.png",
+      "config": "tests/typesetting/light-poster.json",
+      "report": "tests/typesetting/light-poster-checks.json",
+      "review_status": "visual_checked",
+      "review_scope": "local_self_review"
+    },
+    {
+      "id": "dense-modular-001",
+      "pattern_ids": ["editorial-modular-page", "principles-grouping", "type-column"],
+      "image": "tests/typesetting/dense.png",
+      "config": "tests/typesetting/dense.json",
+      "report": "tests/typesetting/dense-checks.json",
+      "review_status": "visual_checked",
+      "review_scope": "local_self_review"
+    },
+    {
+      "id": "directional-title-001",
+      "pattern_ids": ["composition-diagonal", "composition-asymmetric", "type-asymmetric"],
+      "image": "tests/typesetting/forward-poster.png",
+      "config": "tests/typesetting/forward-poster.json",
+      "report": "tests/typesetting/forward-poster-checks.json",
+      "review_status": "visual_checked",
+      "review_scope": "local_self_review"
+    },
+    {
+      "id": "wide-editorial-reflow-001",
+      "pattern_ids": ["editorial-columns", "principles-reading-path", "type-column"],
+      "image": "tests/typesetting/long-wide.png",
+      "config": "tests/typesetting/long-wide.json",
+      "report": "tests/typesetting/long-wide-checks.json",
+      "review_status": "visual_checked",
+      "review_scope": "local_self_review"
+    },
+    {
+      "id": "cjk-line-breaks-001",
+      "pattern_ids": ["type-indent-wrap", "type-cjk-mixed", "type-baseline"],
+      "image": "tests/typesetting/line-breaks.png",
+      "config": "tests/typesetting/line-breaks.json",
+      "report": "tests/typesetting/line-breaks-checks.json",
+      "review_status": "technical_only",
+      "review_scope": "line_break_and_copy_check"
+    },
+    {
+      "id": "title-transform-001",
+      "pattern_ids": ["type-asymmetric", "principles-contrast", "composition-axis"],
+      "image": "tests/typography/text-first/title-designed.png",
+      "config": "tests/typography/text-first/designed.json",
+      "report": "tests/typography/text-first/title-designed-checks.json",
+      "review_status": "visual_checked",
+      "review_scope": "local_self_review"
+    },
+    {
+      "id": "protected-wrap-001",
+      "pattern_ids": ["type-indent-wrap", "type-cjk-mixed", "principles-grouping"],
+      "image": "tests/typesetting/wrapping-regressions.png",
+      "config": "tests/typesetting/wrapping-regressions.json",
+      "report": "tests/typesetting/wrapping-regressions-checks.json",
+      "review_status": "technical_only",
+      "review_scope": "protected_group_and_copy_check"
+    }
+  ]
+}

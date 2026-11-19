@@ -1,4 +1,4 @@
 interface:
   display_name: "best-layout"
-  short_description: "结合日式留白与瑞士网格，使用真实字体排版正式文案，直接交付图片"
-  default_prompt: "使用 $best-layout 将我提供的内容排成图片，保留正式文案，图内不加设计说明，完成后只展示成图。"
+  short_description: "按任务选择版式关系，以真实字体设计标题与空间，直接交付图片"
+  default_prompt: "使用 $best-layout 设计我提供的文字与版面，先按内容任务选择版式关系，再处理真实字体、标题字形和空间，保留正式文案，图内不加设计说明，完成后只展示成图。"

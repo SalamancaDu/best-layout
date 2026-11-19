@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#EEE5D3"
+  },
+  "copy": {
+    "collapse": "崩溃",
+    "particle": "的",
+    "economy": "古巴经济"
+  },
+  "graphics": [],
+  "blocks": [
+    {
+      "copy_id": "collapse",
+      "font": "source-han-serif",
+      "x": 90,
+      "y": 100,
+      "width": 900,
+      "height": 530,
+      "size": 400,
+      "color": "#272823"
+    },
+    {
+      "copy_id": "particle",
+      "font": "source-han-sans",
+      "x": 96,
+      "y": 700,
+      "width": 140,
+      "height": 140,
+      "size": 92,
+      "color": "#272823"
+    },
+    {
+      "copy_id": "economy",
+      "font": "source-han-sans",
+      "x": 90,
+      "y": 880,
+      "width": 900,
+      "height": 240,
+      "size": 205,
+      "color": "#272823"
+    }
+  ]
+}

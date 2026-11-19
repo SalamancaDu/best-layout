@@ -1,0 +1,97 @@
+{
+  "blocks": [
+    {
+      "copy_id": "lead",
+      "text": "把",
+      "font": "source-han-sans",
+      "size": 90,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "把",
+          "left": 97,
+          "right": 185,
+          "top": 174,
+          "bottom": 258,
+          "layout_left": 96,
+          "layout_right": 186
+        }
+      ]
+    },
+    {
+      "copy_id": "focus",
+      "text": "重点",
+      "font": "unbounded",
+      "size": 286,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "重点",
+          "left": 92.46875,
+          "right": 655.53125,
+          "top": 397.5625,
+          "bottom": 625.46875,
+          "layout_left": 88,
+          "layout_right": 660
+        }
+      ]
+    },
+    {
+      "copy_id": "tail",
+      "text": "留给内容",
+      "font": "xiangcui",
+      "size": 120,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "留给内容",
+          "left": 102,
+          "right": 572,
+          "top": 740,
+          "bottom": 859,
+          "layout_left": 96,
+          "layout_right": 576
+        }
+      ]
+    },
+    {
+      "copy_id": "detail",
+      "text": "城市观察｜2026.10.18",
+      "font": "source-han-sans",
+      "size": 38,
+      "transform": {
+        "scale_x": 1,
+        "scale_y": 1,
+        "skew_x": 0
+      },
+      "lines": [
+        {
+          "text": "城市观察｜2026.10.18",
+          "left": 96,
+          "right": 489.63995361328125,
+          "top": 1225,
+          "bottom": 1263,
+          "layout_left": 96,
+          "layout_right": 490.0599670410156
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "width": 1080,
+  "height": 1440,
+  "sha256": "47d193ac2df8734d8a1874bacbd13df85e1cb6e1a5bc8df13c021001186492b7",
+  "visual_review": "pending; inspect actual PNG at original and viewing sizes"
+}

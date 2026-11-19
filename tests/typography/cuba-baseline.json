@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "background": "#EFE9DC"
+  },
+  "copy": {
+    "title": "古巴经济"
+  },
+  "graphics": [
+    {
+      "type": "image",
+      "path": "artwork.png",
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1440,
+      "fit": "cover"
+    }
+  ],
+  "blocks": [
+    {
+      "copy_id": "title",
+      "font": "source-han-serif",
+      "x": 526,
+      "y": 51,
+      "width": 490,
+      "height": 492,
+      "size": 222,
+      "color": "#293A32",
+      "letter_spacing": 3,
+      "line_height": 237,
+      "lines": [
+        "古巴",
+        "经济"
+      ]
+    }
+  ]
+}
